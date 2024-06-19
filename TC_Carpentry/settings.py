@@ -49,8 +49,8 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = 'DEBUG' in os.environ
 
 ALLOWED_HOSTS = [
-    'localhost',
-    os.environ.get('ALLOWED_HOST')
+    os.environ.get('ALLOWED_HOST'),
+    'localhost'
 ]
 
 
@@ -72,7 +72,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    os.eniron.get('CLIENT_ORIGIN')
+    os.environ.get('CLIENT_ORIGIN')
 ]
 
 SITE_ID = 1
