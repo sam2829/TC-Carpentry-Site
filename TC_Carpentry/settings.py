@@ -48,7 +48,10 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEBUG' in os.environ
 
-ALLOWED_HOSTS = ['localhost', "tc-carpentry-d2974ed67d90.herokuapp.com"]
+ALLOWED_HOSTS = [
+    'localhost',
+    os.environ.get('ALLOWED_HOST')
+]
 
 
 # Application definition
@@ -66,6 +69,10 @@ INSTALLED_APPS = [
     'corsheaders',
 
     'images',
+]
+
+CORS_ALLOWED_ORIGINS = [
+    os.eniron.get('CLIENT_ORIGIN')
 ]
 
 SITE_ID = 1
