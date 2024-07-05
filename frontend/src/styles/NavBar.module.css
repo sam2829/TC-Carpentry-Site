@@ -1,0 +1,19 @@
+.Navbar {
+    color: black;
+    background-color: #cd8d51;
+    min-height: 100px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .navLinks {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+  }
+
+  .Logo {
+    font-weight: 700;
+    font-size: 30px;
+  }
