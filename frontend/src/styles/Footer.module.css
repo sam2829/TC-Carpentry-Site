@@ -1,0 +1,12 @@
+.Footer {
+    background-color: darkgray;
+    font-weight: 700;
+    border-radius: 6px;
+    padding-bottom: 100px;
+}
+
+.Icon {
+    color: #cd8d51;
+    font-size: 30px;
+    margin: 40px 10px 40px 10px;
+}
