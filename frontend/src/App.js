@@ -1,13 +1,12 @@
 import styles from "./App.module.css";
 import NavBar from "./components/NavBar";
-import Slideshow from "./components/Slideshow";
-
+import Homepage from "./components/pages/Homepage";
 
 function App() {
   return (
     <div className={styles.App}>
       <NavBar />
-      <Slideshow />
+      <Homepage />
     </div>
   );
 }

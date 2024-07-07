@@ -1,0 +1,14 @@
+.Button {
+    color: white;
+    background-color: #cd8d51;
+    border: 1px solid #cd8d51;
+    transition: 0.8s;
+    margin: 5px 0 5px 0
+}
+
+.Button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #cd8d51;
+    border: 1px solid #cd8d51;
+    opacity: 0.8;
+}
