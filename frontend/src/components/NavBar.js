@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import styles from "../styles/NavBar.module.css";
 
+// Component for rendering Navbar
 const NavBar = () => {
   return (
     <>
