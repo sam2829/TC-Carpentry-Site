@@ -1,6 +1,6 @@
 import styles from "./App.module.css";
 import NavBar from "./components/NavBar";
-import Homepage from "./components/pages/Homepage";
+import Homepage from "./pages/homepage/Homepage";
 
 function App() {
   return (

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import imageOne from "../images/mock-photo.jpg";
-import imageTwo from "../images/mock-photo-2.jpg";
-import imageThree from "../images/mock-photo-3.jpg";
-import imageFour from "../images/mock-photo-4.jpg";
-import styles from "../styles/Slideshow.module.css";
+import imageOne from "../../images/mock-photo.jpg";
+import imageTwo from "../../images/mock-photo-2.jpg";
+import imageThree from "../../images/mock-photo-3.jpg";
+import imageFour from "../../images/mock-photo-4.jpg";
+import styles from "../../styles/Slideshow.module.css";
 
 // List of images in slidehsow
 const images = [imageOne, imageTwo, imageThree, imageFour];

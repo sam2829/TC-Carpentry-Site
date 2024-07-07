@@ -3,12 +3,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import imageOne from "../images/mock-photo.jpg";
-import imageTwo from "../images/mock-photo-2.jpg";
+import imageOne from "../../images/mock-photo.jpg";
+import imageTwo from "../../images/mock-photo-2.jpg";
 
-import styles from '../styles/HomeInfoSection.module.css'
-import CustomButton from "./CustomButton";
+import styles from '../../styles/HomeInfoSection.module.css'
+import CustomButton from "../../components/CustomButton";
 
+// Component to render info section on homepage
 const HomeInfoSection = () => {
   return (
     <div>
@@ -29,6 +30,7 @@ const HomeInfoSection = () => {
               porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
               ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
             </p>
+             {/**Custom button component */}
             <CustomButton title='Contact Us' />
           </Col>
           <Col xs={12} lg={4}>
@@ -54,6 +56,7 @@ const HomeInfoSection = () => {
               porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
               ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
             </p>
+            {/**Custom button component */}
             <CustomButton title='Contact Us' />
           </Col>
         </Row>

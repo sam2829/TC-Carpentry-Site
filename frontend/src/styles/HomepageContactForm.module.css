@@ -1,0 +1,22 @@
+.contactForm {
+    position: relative; /* Ensure the container is positioned */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 100px 60px 100px;
+    font-weight: 700;
+    color: black;
+}
+
+.contactFormBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/mock-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust opacity here (0.5 for 50% opacity) */
+    z-index: -1; /* Ensure it's behind other content */
+    border-radius: 10px;
+}
