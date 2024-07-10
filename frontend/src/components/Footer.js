@@ -10,7 +10,7 @@ const Footer = () => {
     <section className={styles.Footer}>
       <Row>
         <Col xs={12}>
-          <h4 className="my-5">TC Carpentry</h4>
+          <h4 className="my-3">TC Carpentry</h4>
         </Col>
       </Row>
       <Row>

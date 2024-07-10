@@ -38,7 +38,8 @@ const HomeInfoSection = () => {
           </Col>
         </Row>
         <Row className="my-5">
-          <Col xs={12} lg={4}>
+          {/** this column is only on display for large screens */}
+          <Col lg={4} className="d-none d-lg-block">
             <img className={` my-3 ${styles.Image}`} src={imageTwo} alt="work 2" />
           </Col>
           <Col xs={12} lg={8}>
@@ -58,6 +59,10 @@ const HomeInfoSection = () => {
             </p>
             {/**Custom button component */}
             <CustomButton title='Contact Us' />
+          </Col>
+          {/** This column and image is only on displayed in small screens */}
+          <Col xs={12} className="d-block d-lg-none">
+            <img className={` my-3 ${styles.Image}`} src={imageTwo} alt="work 2" />
           </Col>
         </Row>
       </Container>

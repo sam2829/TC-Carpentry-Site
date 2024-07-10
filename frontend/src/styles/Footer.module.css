@@ -1,12 +1,13 @@
 .Footer {
-    background-color: darkgray;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
     font-weight: 700;
     border-radius: 6px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
 
 .Icon {
     color: #cd8d51;
     font-size: 30px;
-    margin: 40px 10px 40px 10px;
+    margin: 10px 10px 10px 10px;
 }

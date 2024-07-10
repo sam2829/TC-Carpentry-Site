@@ -12,7 +12,7 @@ const HomepageContactForm = () => {
   return (
     <>
       {/** Container for form */}
-      <Container className={`mt-5 ${styles.contactForm}`}>
+      <Container className={`my-5 ${styles.contactForm}`}>
         {/** background image for form */}
         <div className={styles.contactFormBackground}></div>
         {/** contact form */}
