@@ -4,12 +4,17 @@ import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import styles from "../styles/NavBar.module.css";
+import useClickOutsideToggle from "../hooks/useClickOutsideToggle";
 
 // Component for rendering Navbar
 const NavBar = () => {
+  // This is so we can toggle the hamburger menu
+  const { expanded, setExpanded, ref } = useClickOutsideToggle();
+
   return (
     <>
       <Navbar
+        expanded={expanded}
         collapseOnSelect
         expand="lg"
         className={styles.NavBar}
@@ -20,7 +25,11 @@ const NavBar = () => {
             <i className="fa-solid fa-hammer pe-3"></i>
             TC Carpentry
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle
+            ref={ref}
+            onClick={() => setExpanded(!expanded)}
+            aria-controls="responsive-navbar-nav"
+          />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className={`ms-auto ${styles.navLinks}`}>
               <NavLink
