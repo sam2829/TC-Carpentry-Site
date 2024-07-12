@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import styles from "../styles/NavBar.module.css";
 
@@ -11,22 +12,67 @@ const NavBar = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        className={styles.Navbar}
+        className={styles.NavBar}
         fixed="top"
       >
         <Container>
-          <Navbar.Brand href="#home" className={`px-5 ${styles.Logo}`}>
-            <i class="fa-solid fa-hammer pe-3"></i>
+          <Navbar.Brand to="/" className={`px-5 ${styles.Logo}`}>
+            <i className="fa-solid fa-hammer pe-3"></i>
             TC Carpentry
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className={`ms-auto ${styles.navLinks}`}>
-              <Nav.Link href="#features">Home</Nav.Link>
-              <Nav.Link href="#pricing">Services</Nav.Link>
-              <Nav.Link href="#pricing">Portfolio</Nav.Link>
-              <Nav.Link href="#pricing">About Us</Nav.Link>
-              <Nav.Link href="#pricing">Contact Us</Nav.Link>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? `${styles.navLink} ${styles.Active}`
+                    : styles.navLink
+                }
+                to="/"
+              >
+                Home
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? `${styles.navLink} ${styles.Active}`
+                    : styles.navLink
+                }
+                to="/services"
+              >
+                Services
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? `${styles.navLink} ${styles.Active}`
+                    : styles.navLink
+                }
+                to="/portfolio"
+              >
+                Portfolio
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? `${styles.navLink} ${styles.Active}`
+                    : styles.navLink
+                }
+                to="/about"
+              >
+                About Us
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? `${styles.navLink} ${styles.Active}`
+                    : styles.navLink
+                }
+                to="/contact"
+              >
+                Contact Us
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

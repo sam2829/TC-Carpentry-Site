@@ -11,3 +11,14 @@
     font-size: 30px;
     margin: 10px 10px 10px 10px;
 }
+
+.Icon i {
+    color: #cd8d51;
+    transition: color 0.8s ease, transform 0.8s ease;
+    transform: scale(1);
+}
+
+.Icon i:hover {
+    color: #e0743c;
+    transform: scale(1.2);
+}
