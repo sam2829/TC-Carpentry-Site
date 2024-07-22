@@ -1,0 +1,42 @@
+.navLink {
+  position: relative;
+  overflow: hidden;
+  color: black;
+  z-index: 1;
+  border: 1px solid #cd8d51;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  transition: color 0.8s ease, box-shadow 0.8s ease;
+}
+
+.navLink::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+  transform: translateY(-100%);
+  transition: transform 0.8s ease;
+}
+
+.navLink:hover::before {
+  transform: translateY(0) !important;
+}
+
+.navLink:hover {
+  color: #cd8d51 !important;
+  border: 1px solid #cd8d51;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.Active {
+  color: #cd8d51;
+  background-color: black;
+  border: 1px solid #cd8d51;
+  border-radius: 30px;
+}

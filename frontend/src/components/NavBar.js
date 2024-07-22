@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import styles from "../styles/NavBar.module.css";
 import useClickOutsideToggle from "../hooks/useClickOutsideToggle";
+import NavBarNavLink from "./NavBarNavLink";
 
 // Component for rendering Navbar
 const NavBar = () => {
@@ -32,56 +32,12 @@ const NavBar = () => {
           />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className={`ms-auto ${styles.navLinks}`}>
-              <NavLink
-                className={({ isActive }) =>
-                  isActive
-                    ? `${styles.navLink} ${styles.Active}`
-                    : styles.navLink
-                }
-                to="/"
-              >
-                Home
-              </NavLink>
-              <NavLink
-                className={({ isActive }) =>
-                  isActive
-                    ? `${styles.navLink} ${styles.Active}`
-                    : styles.navLink
-                }
-                to="/services"
-              >
-                Services
-              </NavLink>
-              <NavLink
-                className={({ isActive }) =>
-                  isActive
-                    ? `${styles.navLink} ${styles.Active}`
-                    : styles.navLink
-                }
-                to="/portfolio"
-              >
-                Portfolio
-              </NavLink>
-              <NavLink
-                className={({ isActive }) =>
-                  isActive
-                    ? `${styles.navLink} ${styles.Active}`
-                    : styles.navLink
-                }
-                to="/about"
-              >
-                About Us
-              </NavLink>
-              <NavLink
-                className={({ isActive }) =>
-                  isActive
-                    ? `${styles.navLink} ${styles.Active}`
-                    : styles.navLink
-                }
-                to="/contact"
-              >
-                Contact Us
-              </NavLink>
+              {/** Nav Links in Navbar */}
+              <NavBarNavLink title='Home' to='/' />
+              <NavBarNavLink title='Services' to='/services' />
+              <NavBarNavLink title='Portfolio' to='/portfolio' />
+              <NavBarNavLink title='About Us' to='/about' />
+              <NavBarNavLink title='Contact Us' to='/contact' />
             </Nav>
           </Navbar.Collapse>
         </Container>
