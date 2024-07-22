@@ -93,7 +93,7 @@ const HomepageContactForm = () => {
           </Row>
           <Row>
             <div className="mt-5">
-              <CustomButton title="Send" />
+              <CustomButton title="Send" formButton />
             </div>
           </Row>
         </Form>
