@@ -27,13 +27,13 @@ const Footer = () => {
       </Row>
       <Row className="justify-content-center">
         <Col xs={1} className={styles.Icon}>
-          <i class="fa-solid fa-envelope"></i>
+          <i className="fa-solid fa-envelope"></i>
         </Col>
         <Col xs={1} className={styles.Icon}>
-          <i class="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-facebook"></i>
         </Col>
         <Col xs={1} className={styles.Icon}>
-          <i class="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-linkedin"></i>
         </Col>
       </Row>
     </section>
