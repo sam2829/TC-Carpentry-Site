@@ -27,13 +27,31 @@ const Footer = () => {
       </Row>
       <Row className="justify-content-center">
         <Col xs={1} className={styles.Icon}>
-          <i className="fa-solid fa-envelope"></i>
+          <a
+            href="mailto: samscarisbrick@outlook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-solid fa-envelope"></i>
+          </a>
         </Col>
         <Col xs={1} className={styles.Icon}>
-          <i className="fa-brands fa-facebook"></i>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-facebook"></i>
+          </a>
         </Col>
         <Col xs={1} className={styles.Icon}>
-          <i className="fa-brands fa-linkedin"></i>
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
         </Col>
       </Row>
     </section>
