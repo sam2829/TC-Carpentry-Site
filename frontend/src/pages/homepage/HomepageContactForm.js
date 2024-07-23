@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -19,6 +20,8 @@ const HomepageContactForm = () => {
     message: "",
   });
   const { name, email, telephone, subject, message } = formEmailData;
+  const [isSubmitting, setIsSubmitting] = useState(false); // To manage the loading state
+  const [responseMessage, setResponseMessage] = useState(""); // To show the success or error message
 
   // handle change in form fields
   const handleChange = (event) => {
@@ -28,6 +31,33 @@ const HomepageContactForm = () => {
     });
   };
 
+  // handle form submission
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setIsSubmitting(true);
+    console.log("sending....");
+
+    try {
+      // Post to backend
+      await axios.post("http://127.0.0.1:8000/send-email/", formEmailData);
+
+      // handle response from backend
+      setResponseMessage("Email sent successfully!");
+      setFormEmailData({
+        name: "",
+        email: "",
+        telephone: "",
+        subject: "",
+        message: "",
+      });
+    } catch (error) {
+      setResponseMessage("Failed to send email. Please try again.");
+      console.log("Error sending email!", error);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <>
       {/** Container for form */}
@@ -35,7 +65,7 @@ const HomepageContactForm = () => {
         {/** background image for form */}
         <div className={styles.contactFormBackground}></div>
         {/** contact form */}
-        <Form>
+        <Form onSubmit={handleSubmit}>
           <h3 className="my-3">Get In Touch</h3>
           <Row>
             <Col xs={12} lg={6}>
@@ -96,6 +126,21 @@ const HomepageContactForm = () => {
               <CustomButton title="Send" formButton />
             </div>
           </Row>
+          {/** Response message */}
+          {responseMessage && (
+            <Row>
+              <Col xs={12}>
+                <p>{responseMessage}</p>
+              </Col>
+            </Row>
+          )}
+          {isSubmitting && (
+            <Row>
+              <Col xs={12}>
+                <p>Sending email...</p>
+              </Col>
+            </Row>
+          )}
         </Form>
       </Container>
     </>

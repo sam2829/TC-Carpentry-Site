@@ -22,4 +22,5 @@ urlpatterns = [
     path('', root_route),
     path('admin/', admin.site.urls),
     path('', include('images.urls')),
+    path('', include('emailapp.urls')),
 ]

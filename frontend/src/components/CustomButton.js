@@ -1,14 +1,19 @@
-import React from 'react'
-import Button from 'react-bootstrap/Button';
-import styles from '../styles/CustomButtons.module.css'
+import React from "react";
+import Button from "react-bootstrap/Button";
+import styles from "../styles/CustomButtons.module.css";
 
 // component for custom buttons
-const CustomButton = ({title, formButton}) => {
+const CustomButton = ({ title, formButton }) => {
   return (
     <>
-      <Button className={`${styles.Button} ${formButton ? styles.FormButton : ''}`}>{title}</Button>
+      <Button
+        className={`${styles.Button} ${formButton ? styles.FormButton : ""}`}
+        type={formButton ? "submit" : "button"}
+      >
+        {title}
+      </Button>
     </>
-  )
-}
+  );
+};
 
-export default CustomButton
+export default CustomButton;
