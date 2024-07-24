@@ -22,6 +22,7 @@ const HomepageContactForm = () => {
   const { name, email, telephone, subject, message } = formEmailData;
   const [isSubmitting, setIsSubmitting] = useState(false); // To manage the loading state
   const [responseMessage, setResponseMessage] = useState(""); // To show the success or error message
+  const [errors, setErrors] = useState({});
 
   // handle change in form fields
   const handleChange = (event) => {
@@ -50,9 +51,11 @@ const HomepageContactForm = () => {
         subject: "",
         message: "",
       });
-    } catch (error) {
+      setErrors({});
+    } catch (err) {
       setResponseMessage("Failed to send email. Please try again.");
-      console.log("Error sending email!", error);
+      setErrors(err.response.data.errors || {});
+      console.log("Error sending email!", err);
     } finally {
       setIsSubmitting(false);
     }
@@ -75,6 +78,7 @@ const HomepageContactForm = () => {
                 name="name"
                 value={name}
                 handleChange={handleChange}
+                errors={errors}
               />
             </Col>
             <Col xs={12} lg={6}>
@@ -84,6 +88,7 @@ const HomepageContactForm = () => {
                 name="email"
                 value={email}
                 handleChange={handleChange}
+                errors={errors}
               />
             </Col>
           </Row>
@@ -95,6 +100,7 @@ const HomepageContactForm = () => {
                 name="telephone"
                 value={telephone}
                 handleChange={handleChange}
+                errors={errors}
               />
             </Col>
             <Col xs={12} lg={6}>
@@ -104,26 +110,30 @@ const HomepageContactForm = () => {
                 name="subject"
                 value={subject}
                 handleChange={handleChange}
+                errors={errors}
               />
             </Col>
           </Row>
           <Row>
             <Col xs={12}>
-              <Form.Group>
-                <Form.Label className="my-3">Message</Form.Label>
-                <Form.Control
-                  as="textarea"
-                  rows={5}
-                  name="message"
-                  value={message}
-                  onChange={handleChange}
-                />
-              </Form.Group>
+              <ContactFormFields
+                title="Message"
+                as="textarea"
+                name="message"
+                value={message}
+                handleChange={handleChange}
+                errors={errors}
+                rows={5}
+              />
             </Col>
           </Row>
           <Row>
+            {/** Form submit button */}
             <div className="mt-5">
-              <CustomButton title="Send" formButton />
+              <CustomButton
+                title={isSubmitting ? "Sending..." : "Send"}
+                formButton
+              />
             </div>
           </Row>
           {/** Response message */}
@@ -131,13 +141,6 @@ const HomepageContactForm = () => {
             <Row>
               <Col xs={12}>
                 <p>{responseMessage}</p>
-              </Col>
-            </Row>
-          )}
-          {isSubmitting && (
-            <Row>
-              <Col xs={12}>
-                <p>Sending email...</p>
               </Col>
             </Row>
           )}
