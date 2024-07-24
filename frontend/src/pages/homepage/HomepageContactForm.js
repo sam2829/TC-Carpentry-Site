@@ -10,7 +10,7 @@ import ContactFormFields from "./ContactFormFields";
 import CustomButton from "../../components/CustomButton";
 
 // component to render contact form on home page
-const HomepageContactForm = () => {
+const HomepageContactForm = ({ showAlert }) => {
   // State for form input fields
   const [formEmailData, setFormEmailData] = useState({
     name: "",
@@ -20,8 +20,7 @@ const HomepageContactForm = () => {
     message: "",
   });
   const { name, email, telephone, subject, message } = formEmailData;
-  const [isSubmitting, setIsSubmitting] = useState(false); // To manage the loading state
-  const [responseMessage, setResponseMessage] = useState(""); // To show the success or error message
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState({});
 
   // handle change in form fields
@@ -43,7 +42,7 @@ const HomepageContactForm = () => {
       await axios.post("http://127.0.0.1:8000/send-email/", formEmailData);
 
       // handle response from backend
-      setResponseMessage("Email sent successfully!");
+      showAlert("success", `Your email was successfully sent!`);
       setFormEmailData({
         name: "",
         email: "",
@@ -53,7 +52,10 @@ const HomepageContactForm = () => {
       });
       setErrors({});
     } catch (err) {
-      setResponseMessage("Failed to send email. Please try again.");
+      showAlert(
+        "success",
+        `Error sending email. Please check contact form for errors and try again.`
+      );
       setErrors(err.response.data.errors || {});
       console.log("Error sending email!", err);
     } finally {
@@ -136,14 +138,6 @@ const HomepageContactForm = () => {
               />
             </div>
           </Row>
-          {/** Response message */}
-          {responseMessage && (
-            <Row>
-              <Col xs={12}>
-                <p>{responseMessage}</p>
-              </Col>
-            </Row>
-          )}
         </Form>
       </Container>
     </>
