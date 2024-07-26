@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
-import ErrorAlert from "../../components/ErrorAlert";
+import ErrorAlert from "./ErrorAlert";
 
 // component to render input field for home page contact form
 const ContactFormFields = ({

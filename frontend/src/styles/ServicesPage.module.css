@@ -2,15 +2,13 @@
   margin-top: 120px;
 }
 
-/* .Tab .nav-link .active {
-  background-color: lightgray;
-} */
-
 .TabSection {
-  background-color: lightgrey;
+  background-color: #f3f3f3;
   border: 1px solid #cd8d51;
   border-radius: 10px;
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
 }
 
 .Image {

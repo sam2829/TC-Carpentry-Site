@@ -5,9 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 
-import styles from "../../styles/HomepageContactForm.module.css";
+import styles from "../styles/ContactForm.module.css";
 import ContactFormFields from "./ContactFormFields";
-import CustomButton from "../../components/CustomButton";
+import CustomButton from "./CustomButton";
 
 // component to render contact form on home page
 const HomepageContactForm = ({ showAlert }) => {

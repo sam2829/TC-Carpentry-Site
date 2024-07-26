@@ -1,14 +1,17 @@
 import React from 'react'
 import Slideshow from './Slideshow'
 import HomeInfoSection from './HomeInfoSection'
-import HomepageContactForm from './HomepageContactForm'
+import ContactForm from '../../components/ContactForm'
 
 const Homepage = ({showAlert}) => {
   return (
     <main>
+      {/* Slideshow of images */}
       <Slideshow />
+      {/* Info section */}
       <HomeInfoSection />
-      <HomepageContactForm showAlert={showAlert} />
+      {/* Contact form */}
+      <ContactForm showAlert={showAlert} />
     </main>
   )
 }
