@@ -1,41 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styles from "../../styles/PortfolioPage.module.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import axios from "axios";
 import PortfolioPageImages from "./PortfolioPageImages";
 
 import ContactForm from "../../components/ContactForm";
+import useFetchImages from "../../hooks/useFetchImages";
 
 const PortfolioPage = () => {
-  // State for images
-  const [images, setImages] = useState([]);
   // State for tab key
   const [activeTab, setActiveTab] = useState("Roof");
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
 
-  // useEffect to fetch images
-  useEffect(() => {
-    const fetchImages = async () => {
-      setIsLoading(true);
-      try {
-        // Function to fetch images
-        const { data } = await axios.get("http://127.0.0.1:8000/images/");
-        // Filter images just for portfolio page
-        const filteredImages = data.filter((image) => image.portfolio_page);
-        setImages(filteredImages);
-        setIsLoading(false);
-      } catch (error) {
-        console.log("Error fetching images", error);
-        setError("Failed to fetch images");
-        setIsLoading(false);
-      }
-    };
-    fetchImages();
-  }, []);
+  // hook to fetch images
+  const { images, isLoading, error } = useFetchImages("portfolio");
 
   // Filter images based on the active tab
   const filteredImages = images.filter(

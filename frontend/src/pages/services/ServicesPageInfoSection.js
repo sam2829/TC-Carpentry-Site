@@ -8,7 +8,7 @@ const ServicesPageInfoSection = () => {
     <>
       <Row className="my-5">
         <Col xs={12}>
-          <h3 className="my-3">Services</h3>
+          <h2 className="my-5">Services</h2>
           <p className="my-3">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
