@@ -3,7 +3,7 @@
 }
 
 .TabSection {
-  background-color: #f3f3f3;
+  background-color: white;
   border: 1px solid #cd8d51;
   border-radius: 10px;
   padding: 20px;
@@ -32,7 +32,7 @@
 
 .MainTab button:hover {
   /* Styles when hovering over a tab */
-  background-color: black;
+  background-color: white;
   color: #cd8d51;
   border: 1px solid #cd8d51 !important;
 }

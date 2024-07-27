@@ -3,10 +3,10 @@ import styles from "../../styles/ServicesPage.module.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import image1 from "../../images/mock-photo.jpg";
-import image2 from "../../images/mock-photo-2.jpg";
-import image3 from "../../images/mock-photo-3.jpg";
-import image4 from "../../images/mock-photo-4.jpg";
+import image1 from "../../images/kitchen-1.jpg";
+import image2 from "../../images/kitchen-2.jpg";
+import image3 from "../../images/kitchen-3.jpg";
+import image4 from "../../images/kitchen-4.jpg";
 
 // component to render the info for kitchens tab
 const ServicesPageKitchenTab = () => {

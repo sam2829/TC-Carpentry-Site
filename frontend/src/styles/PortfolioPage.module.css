@@ -1,3 +1,47 @@
 .main {
-  margin-top: 150px;
+  margin-top: 120px;
+}
+
+.TabSection {
+  background-color: white;
+  border: 1px solid #cd8d51;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+}
+
+.Image {
+  height: 300px;
+  width: 100%;
+  border: 1px solid #cd8d51;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.MainTab button {
+  /* Default styles for tab headers */
+  background-color: #cd8d51; /* Background color */
+  color: black; /* Text color */
+  border: 1px solid black !important; /* Border */
+  border-radius: 10px;
+  padding: 0.5rem 1rem; 
+  transition: background-color 0.7s, color 0.7s, border 0.7s; /* Smooth transition */
+}
+
+.MainTab button:hover {
+  /* Styles when hovering over a tab */
+  background-color: white;
+  color: #cd8d51;
+  border: 1px solid #cd8d51 !important;
+}
+
+/* Styles for the active tab */
+.MainTab .nav-item .nav-link.active, 
+.MainTab button.active {
+  background-color: blue !important;
+  color: #cd8d51 !important;
+  border-color: #cd8d51 !important;
+  border-bottom-color: transparent !important; /* Remove bottom border */
 }
