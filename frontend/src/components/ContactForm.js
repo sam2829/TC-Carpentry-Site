@@ -135,6 +135,7 @@ const HomepageContactForm = ({ showAlert }) => {
               <CustomButton
                 title={isSubmitting ? "Sending..." : "Send"}
                 formButton
+                isSubmitting={isSubmitting}
               />
             </div>
           </Row>

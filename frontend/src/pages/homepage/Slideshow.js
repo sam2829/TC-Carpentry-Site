@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "../../styles/Slideshow.module.css";
 import useFetchImages from "../../hooks/useFetchImages";
+import LoadingSpinner from "../../components/LoadingSpinner";
 
 // Component to render slideshow of images on homepage
 const Slideshow = () => {
@@ -23,17 +24,21 @@ const Slideshow = () => {
     <>
       {/* Display slideshow */}
       <div className={styles.slideshow}>
+        {/* loading spinner */}
+        {isLoading && <LoadingSpinner />}
         {/** map through images */}
-        {images.map((image, index) => (
-          <img
-            key={image.id}
-            className={`${styles.slideImage} ${
-              index === imageIndex ? styles.active : ""
-            }`}
-            src={image.image}
-            alt={image.description}
-          />
-        ))}
+        {images.length > 0 &&
+          !isLoading &&
+          images.map((image, index) => (
+            <img
+              key={image.id}
+              className={`${styles.slideImage} ${
+                index === imageIndex ? styles.active : ""
+              }`}
+              src={image.image}
+              alt={image.description}
+            />
+          ))}
       </div>
     </>
   );

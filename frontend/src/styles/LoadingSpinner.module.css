@@ -1,0 +1,31 @@
+/* spinner container */
+.SpinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust as needed */
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* main page spinner */
+.Spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 120px;
+  min-width: 120px;
+  color: #cd8d51;
+  text-align: center;
+  border-width: 10px;
+}
+
+/* spinner for buttons */
+.SpinnerButton {
+  height: 20px;
+  width: 20px;
+  border-width: 3px;
+  color: white;
+}

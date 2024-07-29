@@ -8,6 +8,7 @@ import PortfolioPageImages from "./PortfolioPageImages";
 
 import ContactForm from "../../components/ContactForm";
 import useFetchImages from "../../hooks/useFetchImages";
+import LoadingSpinner from "../../components/LoadingSpinner";
 
 const PortfolioPage = () => {
   // State for tab key
@@ -44,13 +45,21 @@ const PortfolioPage = () => {
                   eventKey={tabType}
                   title={tabType.charAt(0).toUpperCase() + tabType.slice(1)}
                 >
+                  {/* load spinner if loading images */}
+                  {isLoading && (
+                    <div className={styles.SpinnerContainer}>
+                      <LoadingSpinner />
+                    </div>
+                  )}
                   {/* component to render portfolio images */}
-                  <PortfolioPageImages
-                    filteredImages={filteredImages}
-                    isLoading={isLoading}
-                    error={error}
-                    workType={tabType}
-                  />
+                  {images.length > 0 && !isLoading && (
+                    <PortfolioPageImages
+                      filteredImages={filteredImages}
+                      isLoading={isLoading}
+                      error={error}
+                      workType={tabType}
+                    />
+                  )}
                 </Tab>
               )
             )}
