@@ -21,7 +21,7 @@ const NavBar = () => {
         fixed="top"
       >
         <Container>
-          <Navbar.Brand to="/" className={`px-5 ${styles.Logo}`}>
+          <Navbar.Brand href='/' className={`px-5 ${styles.Logo}`}>
             <i className="fa-solid fa-hammer pe-3"></i>
             TC Carpentry
           </Navbar.Brand>
