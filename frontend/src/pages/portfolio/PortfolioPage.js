@@ -9,8 +9,9 @@ import PortfolioPageImages from "./PortfolioPageImages";
 import ContactForm from "../../components/ContactForm";
 import useFetchImages from "../../hooks/useFetchImages";
 import LoadingSpinner from "../../components/LoadingSpinner";
+import FetchImagesErrorAlert from "../../components/FetchImagesErrorAlert";
 
-const PortfolioPage = () => {
+const PortfolioPage = ({ showAlert }) => {
   // State for tab key
   const [activeTab, setActiveTab] = useState("Roof");
 
@@ -60,12 +61,15 @@ const PortfolioPage = () => {
                       workType={tabType}
                     />
                   )}
+                  {/* render error message */}
+                  {error && <FetchImagesErrorAlert error={error} />}
                 </Tab>
               )
             )}
           </Tabs>
         </section>
-        <ContactForm />
+        {/* render contact form */}
+        <ContactForm showAlert={showAlert} />
       </Container>
     </div>
   );

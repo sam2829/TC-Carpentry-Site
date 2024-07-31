@@ -30,10 +30,26 @@ function App() {
         {/** display all routes for other pages */}
         <Routes>
           <Route exact path="/" element={<Homepage showAlert={showAlert} />} />
-          <Route exact path="/services" element={<ServicesPage />} />
-          <Route exact path="/portfolio" element={<PortfolioPage />} />
-          <Route exact path="/about" element={<AboutPage />} />
-          <Route exact path="/contact" element={<ContactPage />} />
+          <Route
+            exact
+            path="/services"
+            element={<ServicesPage showAlert={showAlert} />}
+          />
+          <Route
+            exact
+            path="/portfolio"
+            element={<PortfolioPage showAlert={showAlert} />}
+          />
+          <Route
+            exact
+            path="/about"
+            element={<AboutPage showAlert={showAlert} />}
+          />
+          <Route
+            exact
+            path="/contact"
+            element={<ContactPage showAlert={showAlert} />}
+          />
         </Routes>
         {/** display footer */}
         <Footer />

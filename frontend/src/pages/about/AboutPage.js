@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import ContactForm from "../../components/ContactForm";
 
 // component to render the about page
-const AboutPage = () => {
+const AboutPage = ({ showAlert }) => {
   return (
     <div className={styles.main}>
       <Container className="my-5">
@@ -49,7 +49,7 @@ const AboutPage = () => {
           </p>
         </Row>
         {/* contact form */}
-        <ContactForm />
+        <ContactForm showAlert={showAlert} />
       </Container>
     </div>
   );

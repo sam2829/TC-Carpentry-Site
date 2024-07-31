@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
-import ErrorAlert from "./ErrorAlert";
+import ContactFormErrorAlert from "./ContactFormErrorAlert";
 
 // component to render input field for home page contact form
 const ContactFormFields = ({
@@ -27,7 +27,7 @@ const ContactFormFields = ({
           rows={rows} // Only applies if 'as' is 'textarea'
         />
         {/** Error alert message component */}
-        <ErrorAlert errors={errors} fieldName={name} />
+        <ContactFormErrorAlert errors={errors} fieldName={name} />
       </Form.Group>
     </>
   );

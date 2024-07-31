@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "../../styles/Slideshow.module.css";
 import useFetchImages from "../../hooks/useFetchImages";
 import LoadingSpinner from "../../components/LoadingSpinner";
+import FetchImagesErrorAlert from "../../components/FetchImagesErrorAlert";
 
 // Component to render slideshow of images on homepage
 const Slideshow = () => {
@@ -39,6 +40,8 @@ const Slideshow = () => {
               alt={image.description}
             />
           ))}
+        {/* display error message */}
+        {error && <FetchImagesErrorAlert error={error} />}
       </div>
     </>
   );

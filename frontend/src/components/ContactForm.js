@@ -10,7 +10,7 @@ import ContactFormFields from "./ContactFormFields";
 import CustomButton from "./CustomButton";
 
 // component to render contact form on home page
-const HomepageContactForm = ({ showAlert }) => {
+const ContactForm = ({ showAlert }) => {
   // State for form input fields
   const [formEmailData, setFormEmailData] = useState({
     name: "",
@@ -145,4 +145,4 @@ const HomepageContactForm = ({ showAlert }) => {
   );
 };
 
-export default HomepageContactForm;
+export default ContactForm;

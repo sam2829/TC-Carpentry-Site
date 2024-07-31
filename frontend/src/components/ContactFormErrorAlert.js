@@ -2,7 +2,7 @@ import React from 'react'
 import Alert from "react-bootstrap/Alert";
 
 // component to render error alerts in contact form
-const ErrorAlert = ({errors, fieldName}) => {
+const ContactFormErrorAlert = ({errors, fieldName}) => {
   return (
     errors && errors[fieldName] && (
       <Alert className="mt-3" variant="warning">
@@ -14,4 +14,4 @@ const ErrorAlert = ({errors, fieldName}) => {
   )
 }
 
-export default ErrorAlert
+export default ContactFormErrorAlert

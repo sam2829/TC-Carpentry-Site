@@ -7,7 +7,7 @@ import ServicesPageTabs from "./ServicesPageTabs";
 import ContactForm from "../../components/ContactForm";
 
 // component to render the services page
-const ServicesPage = () => {
+const ServicesPage = ({ showAlert }) => {
   return (
     <div className={styles.main}>
       <Container className="my-5">
@@ -18,7 +18,7 @@ const ServicesPage = () => {
           <ServicesPageTabs />
         </section>
         {/* Contact form */}
-        <ContactForm />
+        <ContactForm showAlert={showAlert} />
       </Container>
     </div>
   );
