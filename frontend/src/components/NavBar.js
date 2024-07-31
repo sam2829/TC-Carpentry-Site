@@ -29,6 +29,7 @@ const NavBar = () => {
             ref={ref}
             onClick={() => setExpanded(!expanded)}
             aria-controls="responsive-navbar-nav"
+            className={styles.MenuIcon}
           />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className={`ms-auto ${styles.navLinks}`}>

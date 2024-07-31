@@ -6,6 +6,8 @@
   font-weight: 400;
   border: 1px solid black;
   border-radius: 6px;
+  display: flex;
+  align-items: center;
 }
 
 .navLinks {
@@ -60,8 +62,45 @@
   border-radius: 30px;
 }
 
-
 .Logo {
   font-weight: 700;
   font-size: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+/* styling for smaller screens */
+
+@media (max-width: 991px) {
+  /* Styles for screens smaller than or equal to 991px */
+  .navLinks {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Styles for screens smaller than or equal to 600px */
+  .Logo {
+    font-size: 25px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}
+
+/* styling for smaller screens below 380px */
+
+@media (max-width: 410px) {
+  /* Styles for screens smaller than or equal to 380px */
+  .Logo {
+    font-size: 20px;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    padding-bottom: 36px;
+    padding-top: 36px;
+  }
+  .MenuIcon {
+    font-size: 20px;
+    padding: 5px;
+    
+  }
 }
