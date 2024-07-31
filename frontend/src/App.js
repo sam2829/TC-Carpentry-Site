@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import styles from "./App.module.css";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
@@ -8,6 +8,19 @@ import PortfolioPage from "./pages/portfolio/PortfolioPage";
 import AboutPage from "./pages/about/AboutPage";
 import ContactPage from "./pages/contact/ContactPage";
 import AlertMessage, { useAlert } from "./components/AlertMessage";
+import { useEffect } from "react";
+
+// function to make sure new pages open at the top
+function ScrollToTop() {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
+  }, [location.pathname]); // Depend on location.pathname to trigger scroll
+
+  return null;
+}
 
 function App() {
   // to show alert message
@@ -27,6 +40,8 @@ function App() {
             onClose={hideAlert}
           />
         )}
+        {/** Scroll to top on route change */}
+        <ScrollToTop />
         {/** display all routes for other pages */}
         <Routes>
           <Route exact path="/" element={<Homepage showAlert={showAlert} />} />

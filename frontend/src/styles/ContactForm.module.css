@@ -20,3 +20,13 @@
     z-index: -1; /* Ensure it's behind other content */
     border-radius: 10px;
 }
+
+/* styling for smaller screens */
+
+@media (max-width: 767px) {
+    /* Styles for screens smaller than or equal to 767px */
+    /* make padding smaller to allow input fields bigger */
+    .contactForm {
+      padding: 15px;
+    }
+  }
