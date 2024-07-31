@@ -10,8 +10,8 @@ import ContactForm from "../../components/ContactForm";
 const ContactPage = ({ showAlert }) => {
   return (
     <div className={styles.main}>
-      <Container className="my-5">
-        <Row>
+      <Container className='my-5'>
+        <Row className={styles.infoSection}>
           <h2 className="my-5">Contact Us</h2>
           <Col xs={12} lg={6}>
             <h4 className="mb-4">Address:</h4>
