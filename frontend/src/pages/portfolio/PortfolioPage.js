@@ -33,10 +33,10 @@ const PortfolioPage = ({ showAlert }) => {
         <section className={styles.TabSection}>
           <Tabs
             defaultActiveKey="Roof"
-            id="justify-tab-example"
+            id="uncontrolled-tab-example"
             className={`${styles.MainTab} mb-3`}
             onSelect={(k) => setActiveTab(k)}
-            justify
+            
           >
             {/* map over tabs available */}
             {["Roof", "Kitchen", "Doors", "Floors", "Skirtings", "Other"].map(

@@ -25,6 +25,7 @@ const Footer = () => {
           <p>07875922802</p>
         </Col>
       </Row>
+      {/* icons */}
       <Row className="justify-content-center">
         <Col xs={1} className={styles.Icon}>
           <a

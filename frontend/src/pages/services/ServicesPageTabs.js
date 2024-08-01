@@ -9,9 +9,8 @@ const ServicesPageTabs = () => {
   return (
     <Tabs
       defaultActiveKey="roof"
-      id="justify-tab-example"
+      id="uncontrolled-tab-example"
       className={`${styles.MainTab} mb-3`}
-      justify
     >
       {/* map over the tabData to create tabs */}
       {tabData.map(({ eventKey, title, component }) => (
