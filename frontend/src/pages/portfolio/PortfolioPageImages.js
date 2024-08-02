@@ -1,31 +1,19 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Alert from "react-bootstrap/Alert";
 import styles from "../../styles/PortfolioPage.module.css";
 
 // Component to render images for portfolio
-const PortfolioPageImages = ({
-  filteredImages = [],
-  isLoading,
-  error,
-  workType
-}) => {
+const PortfolioPageImages = ({ filteredImages = [], workType }) => {
   return (
     <Row>
-      {/* Check for loading */}
-      {isLoading ? (
+      {/* check images are available */}
+      {filteredImages.length === 0 ? (
         <Col xs={12}>
-          <div>Loading images...</div>
-        </Col>
-        // check for errors
-      ) : error ? (
-        <Col xs={12}>
-          <div>{error}</div>
-        </Col>
-        // check images are available
-      ) : filteredImages.length === 0 ? (
-        <Col xs={12}>
-          <div>No images available for {workType}</div>
+          <Alert className={`${styles.Alert} mt-3`} variant="warning">
+            No images available for {workType}
+          </Alert>
         </Col>
       ) : (
         // Map over images

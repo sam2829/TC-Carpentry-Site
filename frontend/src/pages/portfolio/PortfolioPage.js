@@ -23,7 +23,6 @@ const PortfolioPage = ({ showAlert }) => {
     (image) => image.work_type === activeTab
   );
 
-
   return (
     <div className={styles.main}>
       <Container className="my-5">
@@ -37,7 +36,6 @@ const PortfolioPage = ({ showAlert }) => {
             id="uncontrolled-tab-example"
             className={`${styles.MainTab} mb-3`}
             onSelect={(k) => setActiveTab(k)}
-            
           >
             {/* map over tabs available */}
             {["Roof", "Kitchen", "Doors", "Floors", "Skirtings", "Other"].map(

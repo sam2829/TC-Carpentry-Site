@@ -45,3 +45,11 @@
   border-color: #cd8d51 !important;
   border-bottom-color: transparent !important; /* Remove bottom border */
 }
+
+/* No images Alert message */
+
+.Alert {
+  max-width: 50%;
+  margin-left: 25%;
+  font-weight: 700;
+}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styles from "../../styles/ServicesPage.module.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -29,6 +29,7 @@ const ServicesPageDoorTab = () => {
             ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
           </p>
         </Col>
+        {/* Display images */}
         <Col xs={12} lg={4}>
           <img className={styles.Image} src={image2} alt="roofing pciture 1" />
         </Col>
@@ -49,7 +50,7 @@ const ServicesPageDoorTab = () => {
         <Col xs={12} lg={4}></Col>
       </Row>
     </>
-  )
-}
+  );
+};
 
-export default ServicesPageDoorTab
+export default ServicesPageDoorTab;

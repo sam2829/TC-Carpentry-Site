@@ -10,8 +10,8 @@ import ContactForm from "../../components/ContactForm";
 const ContactPage = ({ showAlert }) => {
   return (
     <div className={styles.main}>
-      <Container className='my-5'>
-        <Row className={styles.infoSection}>
+      <Container className={`${styles.infoSection} my-5`}>
+        <Row>
           <h2 className="my-5">Contact Us</h2>
           <Col xs={12} lg={6}>
             <h4 className="mb-4">Address:</h4>
@@ -26,6 +26,9 @@ const ContactPage = ({ showAlert }) => {
             <h4 className="my-4">Email Address:</h4>
             <p>tomcostin@outlook.com</p>
           </Col>
+        </Row>
+        <Row>
+          <p className="my-5">You can also contact us by filling out the form below.</p>
         </Row>
         {/* render contact form */}
         <ContactForm showAlert={showAlert} />
