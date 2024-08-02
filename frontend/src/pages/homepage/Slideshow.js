@@ -10,8 +10,8 @@ const Slideshow = () => {
   const [imageIndex, setImageIndex] = useState(0);
 
   // hook to fetch images
-  const { images, isLoading, error } = useFetchImages();
-
+  const { images, isLoading, error } = useFetchImages('main_page');
+  
   // useEffect used so when page loaded it sets interval timer to switch images
   useEffect(() => {
     const interval = setInterval(() => {

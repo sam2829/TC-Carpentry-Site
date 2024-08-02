@@ -16,12 +16,13 @@ const PortfolioPage = ({ showAlert }) => {
   const [activeTab, setActiveTab] = useState("Roof");
 
   // hook to fetch images
-  const { images, isLoading, error } = useFetchImages("portfolio");
+  const { images, isLoading, error } = useFetchImages("portfolio_page");
 
   // Filter images based on the active tab
   const filteredImages = images.filter(
     (image) => image.work_type === activeTab
   );
+
 
   return (
     <div className={styles.main}>

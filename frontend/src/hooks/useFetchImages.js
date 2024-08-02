@@ -7,16 +7,15 @@ const useFetchImages = (pageType) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  // fetch images when page loads and depending what page type
   useEffect(() => {
     const fetchImages = async () => {
       setIsLoading(true);
       try {
-        const { data } = await axios.get("http://127.0.0.1:8000/images/");
-        // Filter images based on page type
-        const filteredImages = data.filter((image) => 
-          pageType === "portfolio" ? image.portfolio_page : image.main_page
-        );
-        setImages(filteredImages);
+        const { data } = await axios.get("http://127.0.0.1:8000/images/", {
+          params: { [pageType]: true },
+        });
+        setImages(data);
         setIsLoading(false);
       } catch (error) {
         console.log("Error fetching images", error);
