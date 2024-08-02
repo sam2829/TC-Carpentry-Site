@@ -136,6 +136,7 @@ const ContactForm = ({ showAlert }) => {
                 title={isSubmitting ? "Sending..." : "Send"}
                 formButton
                 isSubmitting={isSubmitting}
+                disabled={isSubmitting}
               />
             </div>
           </Row>

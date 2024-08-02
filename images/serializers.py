@@ -18,7 +18,7 @@ class ImageSerializer(serializers.ModelSerializer):
             )
         if value.image.height > 4096:
             raise serializers.ValidationError(
-                'Iamge height larger than 4096px'
+                'Image height larger than 4096px'
             )
         return value
 
