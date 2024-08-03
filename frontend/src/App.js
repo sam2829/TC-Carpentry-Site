@@ -21,7 +21,6 @@ function ScrollToTop() {
   const location = useLocation();
 
   useEffect(() => {
-    console.log("Current location:", location.pathname);
     // Scroll to the top of the page
     window.scrollTo(0, 0);
   }, [location.pathname]); // Depend on location.pathname to trigger scroll
@@ -65,6 +64,7 @@ function App() {
             path="/contact"
             element={<ContactPage showAlert={showAlert} />}
           />
+          {/* render not found 404 page */}
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         {/** display footer */}

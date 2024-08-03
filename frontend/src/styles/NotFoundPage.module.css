@@ -1,0 +1,21 @@
+.Main {
+    height: 600px;
+    margin-top: 120px;
+}
+
+.Image {
+    min-height: 120px;
+}
+
+.Text {
+    font-weight: 700;
+}
+
+.Link {
+    color: #cd8d51;
+    text-decoration: none;
+}
+
+.Link:hover {
+    opacity: 0.8;
+}

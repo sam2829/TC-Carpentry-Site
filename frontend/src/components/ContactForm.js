@@ -57,7 +57,7 @@ const ContactForm = ({ showAlert }) => {
         `Error sending email. Please check contact form for errors and try again.`
       );
       setErrors(err.response.data.errors || {});
-      console.log("Error sending email!", err);
+      // console.log("Error sending email!", err);
     } finally {
       setIsSubmitting(false);
     }

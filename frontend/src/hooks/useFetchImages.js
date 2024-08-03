@@ -18,7 +18,7 @@ const useFetchImages = (pageType) => {
         setImages(data);
         setIsLoading(false);
       } catch (error) {
-        console.log("Error fetching images", error);
+        // console.log("Error fetching images", error);
         setError("Failed to fetch images");
         setIsLoading(false);
       }
