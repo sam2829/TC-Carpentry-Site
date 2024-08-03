@@ -39,7 +39,7 @@ const ContactForm = ({ showAlert }) => {
 
     try {
       // Post to backend
-      await axios.post("http://127.0.0.1:8000/send-email/", formEmailData);
+      await axios.post("http://127.0.0.1:8000//api/send-email/", formEmailData);
 
       // handle response from backend
       showAlert("success", `Your email was successfully sent!`);

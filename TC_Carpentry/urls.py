@@ -16,11 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from .views import root_route
+from django.views.generic import TemplateView
 
 urlpatterns = [
-    path('', root_route),
+    path('', TemplateView.as_view(template_name='index.html')),
     path('admin/', admin.site.urls),
-    path('', include('images.urls')),
-    path('', include('emailapp.urls')),
+    path('api/', include('images.urls')),
+    path('api/', include('emailapp.urls')),
 ]
+
+handler404 = TemplateView.as_view(template_name='index.html')
