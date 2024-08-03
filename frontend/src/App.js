@@ -8,6 +8,7 @@ import PortfolioPage from "./pages/portfolio/PortfolioPage";
 import AboutPage from "./pages/about/AboutPage";
 import ContactPage from "./pages/contact/ContactPage";
 import AlertMessage, { useAlert } from "./components/AlertMessage";
+import NotFoundPage from "./components/NotFoundPage";
 import { useEffect } from "react";
 
 // function to make sure new pages open at the top
@@ -65,6 +66,7 @@ function App() {
             path="/contact"
             element={<ContactPage showAlert={showAlert} />}
           />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         {/** display footer */}
         <Footer />
