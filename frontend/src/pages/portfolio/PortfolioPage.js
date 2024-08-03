@@ -18,9 +18,6 @@ const PortfolioPage = ({ showAlert }) => {
 
   // hook to fetch images
   const { images, isLoading, error } = useFetchImages("portfolio_page");
-  console.log("Fetched Images:", images);
-  console.log("Is Loading:", isLoading);
-  console.log("Error:", error);
 
   // Filter images based on the active tab
   const filteredImages = images.filter(
