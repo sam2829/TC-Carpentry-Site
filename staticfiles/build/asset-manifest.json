@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db32932d.css",
+    "main.js": "/static/js/main.016cc8ed.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/roof-4.jpg": "/static/media/roof-4.5d32157baee16a92e3d9.jpg",
+    "static/media/skirting-1.jpg": "/static/media/skirting-1.68efa74b82797f438a28.jpg",
+    "static/media/mock-photo.jpg": "/static/media/mock-photo.dd1d6c935a61a8d16deb.jpg",
+    "static/media/floor-1.jpeg": "/static/media/floor-1.d624f21a8b6a2c2adc9e.jpeg",
+    "static/media/windows-1.jpg": "/static/media/windows-1.54fdf6f2256c29c7d228.jpg",
+    "static/media/door-2.jpg": "/static/media/door-2.32fa5f76398f5457de4b.jpg",
+    "static/media/roof-3.jpg": "/static/media/roof-3.e452e8fcf036f874c21b.jpg",
+    "static/media/windows-4.jpg": "/static/media/windows-4.c269eaf4b59b7f3b5693.jpg",
+    "static/media/mock-photo-2.jpg": "/static/media/mock-photo-2.9c056b2091f3e69dad39.jpg",
+    "static/media/door-1.jpg": "/static/media/door-1.5347c4ffa936ea031bba.jpg",
+    "static/media/roof-2.jpg": "/static/media/roof-2.ce098ff3c56af5f092da.jpg",
+    "static/media/floor-3.jpg": "/static/media/floor-3.bf48c05ec9452720d2b7.jpg",
+    "static/media/door-3.jpg": "/static/media/door-3.bee567cc4df389fbb6c0.jpg",
+    "static/media/floor-4.jpg": "/static/media/floor-4.260326349a7335928cfb.jpg",
+    "static/media/roof-1.jpg": "/static/media/roof-1.da698d53fac6aa079f31.jpg",
+    "static/media/floor-2.avif": "/static/media/floor-2.fe9525e88baa73ef8947.avif",
+    "static/media/skirting-4.jpg": "/static/media/skirting-4.8ad813475e44889a09f7.jpg",
+    "static/media/skirting-2.jpg": "/static/media/skirting-2.b8574e198f3028c27349.jpg",
+    "static/media/windows-3.jpg": "/static/media/windows-3.aca44b52c61fb6f1c3c0.jpg",
+    "static/media/door-4.jpg": "/static/media/door-4.c82d483ee4a77102d1df.jpg",
+    "static/media/kitchen-3.jpg": "/static/media/kitchen-3.9d7cb07fd9db35887aa0.jpg",
+    "static/media/kitchen-2.jpg": "/static/media/kitchen-2.5fcc5fea1ae302ba1c5c.jpg",
+    "static/media/skirting-3.jpg": "/static/media/skirting-3.54b92369ec546038f6b1.jpg",
+    "static/media/kitchen-1.jpg": "/static/media/kitchen-1.1bf65ef0f024d2f53611.jpg",
+    "static/media/kitchen-4.jpg": "/static/media/kitchen-4.276e65390d926965650c.jpg",
+    "index.html": "/index.html",
+    "main.db32932d.css.map": "/static/css/main.db32932d.css.map",
+    "main.016cc8ed.js.map": "/static/js/main.016cc8ed.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db32932d.css",
+    "static/js/main.016cc8ed.js"
+  ]
+}
