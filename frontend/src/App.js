@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import styles from "./App.module.css";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
@@ -16,6 +21,7 @@ function ScrollToTop() {
   const location = useLocation();
 
   useEffect(() => {
+    console.log("Current location:", location.pathname);
     // Scroll to the top of the page
     window.scrollTo(0, 0);
   }, [location.pathname]); // Depend on location.pathname to trigger scroll
@@ -45,24 +51,17 @@ function App() {
         <ScrollToTop />
         {/** display all routes for other pages */}
         <Routes>
-          <Route exact path="/" element={<Homepage showAlert={showAlert} />} />
+          <Route path="/" element={<Homepage showAlert={showAlert} />} />
           <Route
-            exact
             path="/services"
             element={<ServicesPage showAlert={showAlert} />}
           />
           <Route
-            exact
             path="/portfolio"
             element={<PortfolioPage showAlert={showAlert} />}
           />
+          <Route path="/about" element={<AboutPage showAlert={showAlert} />} />
           <Route
-            exact
-            path="/about"
-            element={<AboutPage showAlert={showAlert} />}
-          />
-          <Route
-            exact
             path="/contact"
             element={<ContactPage showAlert={showAlert} />}
           />

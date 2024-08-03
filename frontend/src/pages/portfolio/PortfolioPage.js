@@ -10,6 +10,7 @@ import ContactForm from "../../components/ContactForm";
 import useFetchImages from "../../hooks/useFetchImages";
 import LoadingSpinner from "../../components/LoadingSpinner";
 import FetchImagesErrorAlert from "../../components/FetchImagesErrorAlert";
+import AlertMessageNoImageAlert from "../../components/AlertMessageNoImageAlert";
 
 const PortfolioPage = ({ showAlert }) => {
   // State for tab key
@@ -50,6 +51,10 @@ const PortfolioPage = ({ showAlert }) => {
                     <div className={styles.SpinnerContainer}>
                       <LoadingSpinner />
                     </div>
+                  )}
+                  {/* Alert for if there is no images */}
+                  {images.length === 0 && !isLoading && !error && (
+                    <AlertMessageNoImageAlert portfolioPage='portfolio page' />
                   )}
                   {/* component to render portfolio images */}
                   {images.length > 0 && !isLoading && (

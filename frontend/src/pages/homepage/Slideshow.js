@@ -30,7 +30,7 @@ const Slideshow = () => {
         {isLoading && <LoadingSpinner />}
         {/* Alert for if there is no images */}
         {images.length === 0 && !isLoading && !error && (
-          <AlertMessageNoImageAlert />
+          <AlertMessageNoImageAlert mainPage='main page' />
         )}
         {/** map through images */}
         {images.length > 0 &&
