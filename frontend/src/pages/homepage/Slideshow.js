@@ -3,6 +3,7 @@ import styles from "../../styles/Slideshow.module.css";
 import useFetchImages from "../../hooks/useFetchImages";
 import LoadingSpinner from "../../components/LoadingSpinner";
 import FetchImagesErrorAlert from "../../components/FetchImagesErrorAlert";
+import AlertMessageNoImageAlert from "../../components/AlertMessageNoImageAlert";
 
 // Component to render slideshow of images on homepage
 const Slideshow = () => {
@@ -27,6 +28,10 @@ const Slideshow = () => {
       <div className={styles.slideshow}>
         {/* loading spinner */}
         {isLoading && <LoadingSpinner />}
+        {/* Alert for if there is no images */}
+        {images.length === 0 && !isLoading && !error && (
+          <AlertMessageNoImageAlert />
+        )}
         {/** map through images */}
         {images.length > 0 &&
           !isLoading &&

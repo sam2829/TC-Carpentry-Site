@@ -1,8 +1,8 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Alert from "react-bootstrap/Alert";
 import styles from "../../styles/PortfolioPage.module.css";
+import AlertMessageNoImageAlert from "../../components/AlertMessageNoImageAlert";
 
 // Component to render images for portfolio
 const PortfolioPageImages = ({ filteredImages = [], workType }) => {
@@ -11,9 +11,7 @@ const PortfolioPageImages = ({ filteredImages = [], workType }) => {
       {/* check images are available */}
       {filteredImages.length === 0 ? (
         <Col xs={12}>
-          <Alert className={`${styles.Alert} mt-3`} variant="warning">
-            No images available for {workType}
-          </Alert>
+          <AlertMessageNoImageAlert workType={workType} />
         </Col>
       ) : (
         // Map over images
