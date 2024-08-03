@@ -87,7 +87,23 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    os.environ.get('CLIENT_ORIGIN')
+    os.environ.get('CLIENT_ORIGIN'),
+    "https://tc-carpentry-d2974ed67d90.herokuapp.com",
+]
+# added
+CORS_ALLOW_CREDENTIALS = True
+
+#added
+CORS_ALLOWED_HEADERS = [
+    'content-type',
+    'accept',
+    'authorization',
+    'x-csrftoken',
+]
+# added
+CORS_EXPOSE_HEADERS = [
+    'content-type',
+    'authorization',
 ]
 
 ROOT_URLCONF = 'TC_Carpentry.urls'

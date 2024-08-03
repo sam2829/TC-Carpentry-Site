@@ -12,7 +12,7 @@ const useFetchImages = (pageType) => {
     const fetchImages = async () => {
       setIsLoading(true);
       try {
-        const { data } = await axios.get("http://127.0.0.1:8000/api/images/", {
+        const { data } = await axios.get("https://tc-carpentry-d2974ed67d90.herokuapp.com/api/images/", {
           params: { [pageType]: true },
         });
         setImages(data);
