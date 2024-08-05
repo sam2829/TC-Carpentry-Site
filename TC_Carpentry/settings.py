@@ -94,17 +94,17 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOW_CREDENTIALS = True
 
 #added
-CORS_ALLOWED_HEADERS = [
-    'content-type',
-    'accept',
-    'authorization',
-    'x-csrftoken',
-]
+# CORS_ALLOWED_HEADERS = [
+#     'content-type',
+#     'accept',
+#     'authorization',
+#     'x-csrftoken',
+# ]
 # added
-CORS_EXPOSE_HEADERS = [
-    'content-type',
-    'authorization',
-]
+# CORS_EXPOSE_HEADERS = [
+#     'content-type',
+#     'authorization',
+# ]
 
 ROOT_URLCONF = 'TC_Carpentry.urls'
 
