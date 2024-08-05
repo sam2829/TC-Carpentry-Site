@@ -85,6 +85,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:3000",
+    os.environ.get('CLIENT_ORIGIN'),
+    "https://tc-carpentry-d2974ed67d90.herokuapp.com",
+]
+
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     os.environ.get('CLIENT_ORIGIN'),

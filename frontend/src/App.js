@@ -15,6 +15,10 @@ import ContactPage from "./pages/contact/ContactPage";
 import AlertMessage, { useAlert } from "./components/AlertMessage";
 import NotFoundPage from "./components/NotFoundPage";
 import { useEffect } from "react";
+import axios from 'axios';
+
+// for csrf token
+axios.defaults.withCredentials = true;
 
 // function to make sure new pages open at the top
 function ScrollToTop() {

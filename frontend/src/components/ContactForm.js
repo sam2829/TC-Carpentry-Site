@@ -9,8 +9,13 @@ import styles from "../styles/ContactForm.module.css";
 import ContactFormFields from "./ContactFormFields";
 import CustomButton from "./CustomButton";
 
+import useCsrfToken from "../hooks/useCsrfToken";
+
 // component to render contact form on home page
 const ContactForm = ({ showAlert }) => {
+  // csrf hook
+  useCsrfToken();
+
   // State for form input fields
   const [formEmailData, setFormEmailData] = useState({
     name: "",
@@ -35,11 +40,11 @@ const ContactForm = ({ showAlert }) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     setIsSubmitting(true);
-    console.log("sending....");
+    // console.log("sending....");
 
     try {
       // Post to backend
-      await axios.post("http://127.0.0.1:8000//api/send-email/", formEmailData);
+      await axios.post("/api/send-email/", formEmailData);
 
       // handle response from backend
       showAlert("success", `Your email was successfully sent!`);
@@ -56,7 +61,7 @@ const ContactForm = ({ showAlert }) => {
         "success",
         `Error sending email. Please check contact form for errors and try again.`
       );
-      setErrors(err.response.data.errors || {});
+      setErrors(err.response?.data?.errors || {});
       // console.log("Error sending email!", err);
     } finally {
       setIsSubmitting(false);
