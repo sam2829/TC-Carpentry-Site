@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
-import axios from 'axios';
+import axios from '../axios/AxiosConfig.js';
 
-// component to get the csrf token from backend
 const useCsrfToken = () => {
     useEffect(() => {
         const fetchCsrfToken = async () => {
