@@ -25,7 +25,7 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='index.html')),
     path('admin/', admin.site.urls),
     path('api/images/', include('images.urls')),
-    path('api/send-email', include('emailapp.urls')),
+    path('api/send-email/', include('emailapp.urls')),
 ]
 
 handler404 = TemplateView.as_view(template_name='index.html')
