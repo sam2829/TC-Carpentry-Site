@@ -52,5 +52,39 @@ An entity relationship diagram was created using drawSQL to show the schemas for
 
 [back to top](#tc-carpentry)
 
+## Technologies Used
+
+### Languages Used
+
+- Python
+
+### Frameworks and Tools Used
+
+- Django Rest Framework
+  - Django Rest Framework was used as the main python framework in the development of this project.
+- Aiven
+  - Aiven was used for the production database.
+- Cloudinary
+  - Cloudinary was used to store the images and videos posted.
+- VS Code
+  - VS Code was used to write the code.
+- GitHub
+  - GitHub was used to store the projects code after being pushed from Gitpod.
+- Heroku
+  - Heroku was used for deployment.
+- DrawSQL
+  - DrawSQL was used to draw out the entity relationship diagram.
+
+### Libraries Used
+
+- Django - A python package for the django rest framework.
+- psychopg2 - Database adapter to enable interaction between Python and PostgreSQL database.
+- django cors headers - This Django app adds CORS headers to responses, to enable the API to respond to requests from origins other than its own host.
+- Cloudinary - Used to store images and videos.
+- Pillow - Used for image processing.
+- gunicorn - Used to help run application.
+- django filter - Used to help filter requests from frontend for images.
+
+[back to top](#tc-carpentry)
 
     
