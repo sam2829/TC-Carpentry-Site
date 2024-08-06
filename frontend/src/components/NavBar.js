@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -21,9 +22,11 @@ const NavBar = () => {
         fixed="top"
       >
         <Container>
-          <Navbar.Brand href='/' className={`px-5 ${styles.Logo}`}>
-            <i className="fa-solid fa-hammer pe-3"></i>
-            TC Carpentry
+          <Navbar.Brand>
+            <Link to="/" className={`px-5 ${styles.Logo}`}>
+              <i className="fa-solid fa-hammer pe-3"></i>
+              TC Carpentry
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle
             ref={ref}
@@ -34,11 +37,11 @@ const NavBar = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className={`ms-auto ${styles.navLinks}`}>
               {/** Nav Links in Navbar */}
-              <NavBarNavLink title='Home' to='/' />
-              <NavBarNavLink title='Services' to='/services' />
-              <NavBarNavLink title='Portfolio' to='/portfolio' />
-              <NavBarNavLink title='About Us' to='/about' />
-              <NavBarNavLink title='Contact Us' to='/contact' />
+              <NavBarNavLink title="Home" to="/" />
+              <NavBarNavLink title="Services" to="/services" />
+              <NavBarNavLink title="Portfolio" to="/portfolio" />
+              <NavBarNavLink title="About Us" to="/about" />
+              <NavBarNavLink title="Contact Us" to="/contact" />
             </Nav>
           </Navbar.Collapse>
         </Container>
