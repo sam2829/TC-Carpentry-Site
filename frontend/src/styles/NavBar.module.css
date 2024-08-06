@@ -67,6 +67,10 @@
   font-size: 30px;
   padding-bottom: 30px;
   padding-top: 30px;
+  
+}
+
+.Link {
   color: black !important;
   text-decoration: none;
 }
@@ -82,7 +86,7 @@
 
 @media (max-width: 600px) {
   /* Styles for screens smaller than or equal to 600px */
-  .Logo {
+  .Link {
     font-size: 25px;
     padding-bottom: 32px;
     padding-top: 32px;
@@ -93,7 +97,7 @@
 
 @media (max-width: 410px) {
   /* Styles for screens smaller than or equal to 380px */
-  .Logo {
+  .Link {
     font-size: 20px;
     padding-right: 5px !important;
     padding-left: 5px !important;
