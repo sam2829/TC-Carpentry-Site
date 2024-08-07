@@ -386,3 +386,68 @@ Google fonts was used for the font style.
 
 A number of reusable React components were created with the intention of reducing code duplication.
 
+***AlertMessage.js***
+
+Used to show alert messages to inform user of different actions. This was passed as a prop so each alert when called can display it's own message. 
+
+***AlertMessageNoImageAlert***
+
+Used to show an alert message when app has gone to retrieve images from the backend but there is no images for this purpose.
+
+***ContactForm***
+
+Used so that the contact form can be displayed on numerous pages.
+
+***ContactFormErrorAlert***
+
+Used to display errors for each field for the contact form.
+
+***ContactFormFields***
+
+Used to create individual fields for the contact form.
+
+***CustomButton***
+
+Used to create a custom button and then styled depending on what purpose the button is used for, which is passed as a prop.
+
+***FetchImagesErrorAlert***
+
+Used to show an alert message when trying to fetch images from the backend but an error has occured.
+
+***Footer***
+
+Used to display the footer on all pages.
+
+***LoadingSpinner***
+
+Used to display loading spinner for whenever site is loading. Spinner can be different sizes depending on purpose, which is passed as a prop.
+
+***NavBar***
+
+Used to display navbar on all pages.
+
+***NavBarNavLink***
+
+Used to create numerous nav links for the navbar, which diferent information was passed as props.
+
+***NotFoundPage***
+
+Used to be displayed when ever trying to access a page that doesn't exist.
+
+[Back to top](#tc-carpentry)
+
+### Custom Hooks
+
+***useClickOutsideToggle.js***
+
+This custom hook is used so that in mobile devices, if the navbar dropdown menu has been toggled open, the user can click anywhere outside the dropdown menu and this will still toggle the dropdown menu closed.
+
+***useCsrfToken***
+
+This custom hook is used to fetch the csrf tokens from the backend.
+
+***useFetchImages***
+
+This custom hook is used to fetch the images from the backend and called depending on what page the user is on. What page the user is on is passed as a prop so the hook knows what filter to use to fetch the correct images. Hook also lets know when its loading and if there are any errors.
+
+[Back to top](#tc-carpentry)
