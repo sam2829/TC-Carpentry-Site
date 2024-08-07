@@ -321,3 +321,40 @@ Contact Form:
   - As a User I can Fill out and send the contact form so that I can directly and easily contact TC Carpentry with my enquiries.
 
 [back to top](#tc-carpentry)
+
+#### The Skeleton Plane
+
+##### Wireframes
+
+Wireframes were used to create a prototype of the project which may change during its development.
+
+wireframes screenshots to go here jsdb
+
+[back to top](#tc-carpentry)
+
+##### Database Schema
+
+This is well explained in the backend repository readme [here](#backend)
+
+##### Security
+
+For security Ive made sure that csrf tokens are used for submitting forms. These are created in the backend and connected to the frontend.
+
+Admin is also protected my username and password from Django's built in admin user.
+
+#### The Scope Plane
+
+- Responsive Design - The site should be fully functional on all devices from 320px wide and up.
+
+- Hamburger menu for navbar on mobile devices.
+
+- Homepage welcoming user to the site and links to navigate through the site and ability to conatct TC Carpentry.
+
+[back to top](#tc-carpentry)
+
+#### The Structure Plane
+
+##### Features
+
+As a User I would like to view the site on all my different devices so I can view site wherever I am.
+
