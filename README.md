@@ -358,3 +358,31 @@ Admin is also protected my username and password from Django's built in admin us
 
 As a User I would like to view the site on all my different devices so I can view site wherever I am.
 
+#### The Surface Plane
+
+##### Design
+
+***Colour Scheme***
+
+I opted for a very few choices of colours throughout the site. The same colours have been implemented across the site and are included in the button's styles.
+
+This hopefully makes the site easy and clear to read / use.
+
+The colour palette was created using the coolors website.
+
+![Colour Scheme](docs/readme_screenshots/color-scheme.png)
+
+***Imagery***
+
+The logo for the site was taken from google.
+
+Font awesome was used to for the sites icons.
+
+Google fonts was used for the font style.
+
+[Back to top](#tc-carpentry)
+
+### Use of Components
+
+A number of reusable React components were created with the intention of reducing code duplication.
+
