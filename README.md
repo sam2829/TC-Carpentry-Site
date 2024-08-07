@@ -4,6 +4,10 @@
 
 TC Carpentry is a website designed for a local buissness, who provide a service on all aspects of carpentry. This site is to allow users to understand more about TC Carpentry, see the work they have done and be able to contact them regarding any work they would like done.
 
+Here is a live version of my project [Strongest Avenger](https://tc-carpentry-d2974ed67d90.herokuapp.com/)
+
+djf live version of responsive screenshot here kjsdfnbs
+
 ## Content
 
 - [TC Carpentry](#tc-carpentry)
@@ -19,6 +23,39 @@ TC Carpentry is a website designed for a local buissness, who provide a service 
     - [Testing](#testing)
     - [Deployment](#deployment)
   - [Frontend](#frontend)
+    - [User Experience](#user-experience)
+      - [The strategy Plane](#the-strategy-plane)
+        - [Ideal User](#ideal-user)
+        - [Site Goals](#site-goals)
+      - [Agile Planning](#agile-planning)
+        - [User Stories](#user-stories)
+      - [Skeleton Plane](#skeleton-plane)
+        - [Wireframes](#wireframes)
+        - [Database Schema](#database-schema)
+        - [Security](#security)
+      - [The Scope Plane](#the-scope-plane)
+      - [The Structure Plane](#the-structure-plane)
+        - [Features](#features)
+      - [The Surface Plane](#the-surface-plane)
+        - [Design](#design)
+    - [Use of Components](#use-of-components)
+    - [Custom Hooks](#custom-hooks)
+    - [Technologies Used](#technologies-used)
+      - [Languages Used](#languages-used)
+    - [Frameworks, Libraries and Dependencies](#frameworks-libraries-and-dependencies)
+      - [React](#react)
+      - [React-Router-DOM](#react-router-dom)
+      - [ReactDOM](#reactdom)
+      - [Axios](#axios)
+      - [React Bootstrap](#react-bootstrap)
+      - [Font Awesome](#fontawesome)
+      - [Google Fonts](#google-fonts)
+      - [Prettier](#prettier)
+    - [Testing](#testing)
+    - [Deployment](#deployment)
+  - [Credits](#credits)
+
+    
 
 ## Planning
 
@@ -162,3 +199,125 @@ For deployment to Heroku the following steps were made:
   - Once the app is successfully deployed, a message appeared saying "your app was successfully deployed." Then click on the "view" button which will take me to the deployed link.
 
   [back to top](#tc-carpentry)
+
+  ## Frontend
+
+  ### User Experience
+
+  #### The Stratgey Plane
+
+  TC Carpentry is intended for people who would like any aspect of carpentry work done. Here they can see a very professional and friendly company, and what they are about. They are able to see all aspects of work they cover, images of their previous work and ways of which to contact them.
+
+  ##### The Ideal User
+
+- Someone who needs carpentry work done
+- Someone who likes to see the companies previous work before making a decision.
+- Someone who doesn't know a carpenter and can easily contact this one.
+
+##### Site Goals
+
+- To provide the user with the ability to find out more about TC Carpentry.
+- To provide the user with images and information about what work TC Carpentry does.
+- To provide users with ways in which to contact TC Carpentry.
+
+[back to top](#tc-carpentry)
+
+### Agile Planning
+
+This project was developed using agile methodologies by delivering small features across the duration of the project. This broke down the build of the project into a lot more manageable parts and was able to select which user stories were more important for the site.
+
+It was carried out this way to try ensuring that all core requirements were completed first to give the project a complete feel and to make sure the most important user stories were implemented. When clicked on and opened the user story, the user story was assigned a label "must have", "should have" or "could have" so I would know the importance of the user story.
+
+The kanban board was created using GitHub projects, this helped me be able to see all my user stories and be able to keep track of which ones had been done, to do or in progress.
+
+![User Stories](/docs/readme_screenshots/user-stories.png)
+
+Each User story was placed into it's own milestone iteration to help schedule the development of the project. These iterations can be set with dates but I did not do this due to fitting in around work and other commitments. In the iteration you can close a user story when finished, this will also keep track of how much is completed.
+
+Milestones:
+
+![Milestones](docs/readme_screenshots/milestones.png)
+
+[back to top](#tc-carpentry)
+
+##### User Stories
+
+***Themes***
+
+Themes were developed using the project goals as a starting point. These included:
+
+  - User management - This was necessary so that user could have all the necessary functions across the site.
+
+  - Admin management - This was necessary so that the admin to have full function of admin data and images on site.
+
+***Epics***
+
+Themes were then refined into the following epics:
+
+- User management:
+  
+  - Easily navigate across site.
+
+  - Able to contact TC Carpentry.
+
+- Admin management:
+
+  - Sign in to admin page.
+
+  - Add images.
+
+  - Delete images.
+
+***User Stories***
+
+The following user stories were completed throughout the development:
+
+Homepage:
+
+  - As a User I can view homepage so that I can see all about TC Carpentry and images.
+
+Navabr Navigation:
+
+  - As a User I can navigate the site using the navbar so that easily navigate across the site.
+
+Footer:
+
+  - As a User I can see the footer and able to click on the links so that I can see information about TC Carpentry and follow them on other platforms.
+
+Services Page:
+
+  - As a User I can access the services page so that I can read and see about all the services TC Carpentry offers.
+
+Portfolio Page:
+
+  - As a User I can access the portfolio page so that I can view all the images of all their previous work.
+
+Admin Add Images to Portfolio Page:
+
+  - As a Admin I can add images to the portfolio page so that I can control what images are displayed in the portfolio page, what section and update.
+
+Admin Delete Images:
+
+  - As a Admin I can delete images so that I can control what images are being displayed, what pages and update.
+
+Admin Add Images to Main Page:
+
+  - As a Admin I can add images to the main page so that I can display what images I like for the main page slideshow.
+
+Admin Sign In:
+
+  - As a Admin I can sign in to the admin page so that I can see the admin data.
+
+About Page:
+
+  - As a User I can access the about page so that I can read all about TC Carpentry, their experience and what they do.
+
+Contact Page:
+
+  - As a User I can access the contact page so that I am able to get in contact with TC Carpentry.
+
+Contact Form:
+
+  - As a User I can Fill out and send the contact form so that I can directly and easily contact TC Carpentry with my enquiries.
+
+[back to top](#tc-carpentry)
