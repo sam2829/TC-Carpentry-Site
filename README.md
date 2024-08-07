@@ -451,3 +451,57 @@ This custom hook is used to fetch the csrf tokens from the backend.
 This custom hook is used to fetch the images from the backend and called depending on what page the user is on. What page the user is on is passed as a prop so the hook knows what filter to use to fetch the correct images. Hook also lets know when its loading and if there are any errors.
 
 [Back to top](#tc-carpentry)
+
+### Languages Used
+
+- HTML5
+
+- JSX
+
+- CSS
+
+- JavaScript
+
+[Back to top](#tc-carpentry)
+
+### Frameworks, Libraries and Dependencies
+
+#### React
+
+React is the frontend framework used to create the frontend of this project.
+
+#### React-Router-Dom
+
+React-Router-Dom is used to enable client side routing for React web applications and is used to implement basic routing across this project.
+
+#### ReactDOM
+
+ReactDOM is used for rendering components to the DOM. It bridges the gap between Reacts Virtual DOM and the actual DOM in the browser.
+
+#### Axios
+
+Axios was used to simplify requests made to the REST API.
+
+#### React Bootstrap
+
+React Bootstrap was used to help with the styling and layout of the entire project.
+
+#### Font Awesome
+
+Font awesome was used for the icons used across the site.
+
+#### Google fonts
+
+Google fonts was used to provide the font for the site.
+
+#### Prettier
+
+Prettier is used as code formatting tool which helped me structure my code in the correct way.
+
+[Back to top](#strongest-avenger-react)
+
+### Testing
+
+I have included details of my testing during and post development in a separate file called [TESTING_FRONTEND.md](TESTING_FRONTEND.md)
+
+[Back to top](#strongest-avenger-react)
