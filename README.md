@@ -52,7 +52,6 @@ djf live version of responsive screenshot here kjsdfnbs
       - [Google Fonts](#google-fonts)
       - [Prettier](#prettier)
     - [Testing](#testing)
-    - [Deployment](#deployment)
   - [Credits](#credits)
 
     
@@ -190,6 +189,7 @@ For deployment to Heroku the following steps were made:
     - DATABASE URL: (Enter the database URL from AIVEN)
     - SECRET_KEY: (Enter your secret key)
     - ALLOWED_HOST: (Enter the deployed Heroku app URL)
+    - Also need to add the required envirmoent variables needed to send emails from the contact form.
   - I then went back to the tabs row at the top of the page and clicked on the "Deploy" tab to take me to the deploy page.
   - On the deployment page, I scrolled down to deployment method and confirmed I wanted to deploy through GitHub.
   - When I click on GitHub a search bar will appear underneath which will allow me to search for my GitHub repository. I made sure I spelt the repository I'm searching for exactly as I named it and then clicked the search button.
@@ -505,3 +505,20 @@ Prettier is used as code formatting tool which helped me structure my code in th
 I have included details of my testing during and post development in a separate file called [TESTING_FRONTEND.md](TESTING_FRONTEND.md)
 
 [Back to top](#strongest-avenger-react)
+
+### Credits
+
+- Code Institute - Without the knowledge gained through out doing the course I would not have been able to build this project.
+
+- React Framework - React Framework - For being able to use React Framework to build my project and all the documentation to help build and set up correctly.
+
+- Cloudinary - For storing the data for my posts.
+
+- StackOverflow - For helping give me with ideas on how to overcome issues I encountered.
+
+- Google Fonts - For supplying the fonts used.
+
+- Font Awesome-  For Providing the icons used throughout this project.
+
+[Back to top](#strongest-avenger-react)
+
