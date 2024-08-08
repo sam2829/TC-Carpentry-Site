@@ -84,3 +84,7 @@ The CI Python Linter was used to validate the python code used throughout the pr
 | views.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass |
 
 [back to top](#tc-carpentry-api-testing)
+
+## Bugs and Fixes
+
+[back to top](#tc-carpentry-api-testing)
