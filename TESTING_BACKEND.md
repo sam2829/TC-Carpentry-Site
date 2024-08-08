@@ -39,3 +39,14 @@ Full test table:
 | Filter by portfolio page | When logged in as admin, I am able to filter images by if they are portfolio page. | Logged in as admin, then tried filtering images by portfolio page. | Succesffully able to filter images by portfolio page. | Pass |
 | Description length | When uploading a photo I am not allowed to exceed 50 characters. If this happens, image is not uploaded and error message appears. | Logged in as admin, tried uploading image with description field exceeding 50 characters. | Unable to upload image, error message appeared. | Pass |
 
+[back to top](#tc-carpentry-api-testing)
+
+In this project I also done automated python testing. In this I tried to test as much on the apps as I could. These tests were created to test the functionality of the apps. These can be found in the test.py files in the respective apps.
+
+***Images***
+
+![Automated Testing Images](/docs/testing_screenshots/python-testing-images.png)
+
+***Emailapp***
+
+![Automated Testing Images](/docs/testing_screenshots/python-testing-emailapp.png)
