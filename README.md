@@ -4,9 +4,9 @@
 
 TC Carpentry is a website designed for a local buissness, who provide a service on all aspects of carpentry. This site is to allow users to understand more about TC Carpentry, see the work they have done and be able to contact them regarding any work they would like done.
 
-Here is a live version of my project [Strongest Avenger](https://tc-carpentry-d2974ed67d90.herokuapp.com/)
+Here is a live version of my project [TC Carpentry](https://tc-carpentry-d2974ed67d90.herokuapp.com/)
 
-djf live version of responsive screenshot here kjsdfnbs
+![Am I Responsive Screenshot](/docs/readme_screenshots/am-i-responsive.png)
 
 ## Content
 
@@ -20,7 +20,7 @@ djf live version of responsive screenshot here kjsdfnbs
       - [Languages Used](#languages-used)
       - [Frameworks and Tools Used](#frameworks-and-tools-used)
       - [Libraries Used](#libraries-used)
-    - [Testing](#testing)
+    - [Testing Backend](#testing-backend)
     - [Deployment](#deployment)
   - [Frontend](#frontend)
     - [User Experience](#user-experience)
@@ -51,7 +51,7 @@ djf live version of responsive screenshot here kjsdfnbs
       - [Font Awesome](#fontawesome)
       - [Google Fonts](#google-fonts)
       - [Prettier](#prettier)
-    - [Testing](#testing)
+    - [Testing Frontend](#testing-frontend)
   - [Credits](#credits)
 
     
@@ -123,7 +123,7 @@ An entity relationship diagram was created using drawSQL to show the schemas for
 
 [back to top](#tc-carpentry)
 
-## Testing
+## Testing Backend
 
 I have included details of my testing during and post development in a separate file called [TESTING_BACKEND.md](TESTING_BACKEND.md).
 
@@ -500,7 +500,7 @@ Prettier is used as code formatting tool which helped me structure my code in th
 
 [Back to top](#tc-carpentry)
 
-### Testing
+### Testing Frontend
 
 I have included details of my testing during and post development in a separate file called [TESTING_FRONTEND.md](TESTING_FRONTEND.md)
 
