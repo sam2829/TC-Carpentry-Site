@@ -50,3 +50,37 @@ In this project I also done automated python testing. In this I tried to test as
 ***Emailapp***
 
 ![Automated Testing Images](/docs/testing_screenshots/python-testing-emailapp.png)
+
+## Validators
+
+***CI Python Linter***
+
+The CI Python Linter was used to validate the python code used throughout the project. All results are in the table below:
+
+
+| Files | Expected Result | Result | Pass / Fail |
+| --- | --- | --- | --- |
+|`TC_Carpentry`|
+| asgi.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| settings.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | ...| 
+| urls.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| views.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| wsgi.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass |
+|`images`|
+| admin.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| apps.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| models.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| serializers.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| tests.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| urls.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| views.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass |
+|`emailapp`|
+| admin.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| apps.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| forms.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| models.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| tests.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| urls.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
+| views.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass |
+
+[back to top](#tc-carpentry-api-testing)

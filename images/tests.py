@@ -14,18 +14,19 @@ class ImageListTests(APITestCase):
     def setUp(self):
         self.url = reverse('image-list')
         self.image1 = Images.objects.create(
-            image='images/test1.jpg', 
-            description='Test Image 1', 
-            work_type='Roof', 
+            image='images/test1.jpg',
+            description='Test Image 1',
+            work_type='Roof',
             main_page=True,
             portfolio_page=False
         )
         self.image2 = Images.objects.create(
-            image='images/test2.jpg', 
-            description='Test Image 2', 
-            work_type='Kitchen', 
+            image='images/test2.jpg',
+            description='Test Image 2',
+            work_type='Kitchen',
             portfolio_page=True
         )
+
     # test to get all images
     def test_get_all_images(self):
         response = self.client.get(self.url)
@@ -64,7 +65,9 @@ class ImagesModelTests(APITestCase):
     # test to check main page or portfolio page must be selected
     def test_image_model_validation_no_page_selected(self):
         image = Images(
-            image=SimpleUploadedFile("test.jpg", b"file_content", content_type="image/jpeg"),
+            image=SimpleUploadedFile(
+                "test.jpg", b"file_content", content_type="image/jpeg"
+            ),
             description='Test Image',
             work_type='Roof',
             main_page=False,
@@ -72,23 +75,36 @@ class ImagesModelTests(APITestCase):
         )
         with self.assertRaises(ValidationError) as cm:
             image.clean()
-        self.assertIn('At least one of main page or portfolio page must be selected.', cm.exception.messages)
+        self.assertIn(
+            'At least one of main page or portfolio page must be selected.',
+            cm.exception.messages
+        )
 
     # test for invalid extension on image
     def test_image_model_invalid_extension(self):
         image = Images(
-            image=SimpleUploadedFile("test.txt", b"file_content", content_type="text/plain"),
+            image=SimpleUploadedFile(
+                "test.txt", b"file_content", content_type="text/plain"
+            ),
             description='Test Image',
             work_type='Roof',
             main_page=True
         )
         with self.assertRaises(ValidationError) as cm:
-            image.full_clean()  # This runs the model validation including field validators
-        self.assertIn('Unsupported file extension. Allowed extensions are', str(cm.exception))
+            # This runs the model validation including field validators
+            image.full_clean()
+        self.assertIn(
+            'Unsupported file extension. Allowed extensions are',
+            str(cm.exception)
+        )
 
     # test for image file to large
     def test_image_model_large_file(self):
-        large_file = SimpleUploadedFile("test.jpg", b"a" * (10 * 1024 * 1024 + 1), content_type="image/jpeg")  # Just over 10MB
+        # Just over 10MB
+        large_file = SimpleUploadedFile(
+            "test.jpg", b"a" * (10 * 1024 * 1024 + 1),
+            content_type="image/jpeg"
+        )
         image = Images(
             image=large_file,
             description='Test Image',
@@ -97,4 +113,7 @@ class ImagesModelTests(APITestCase):
         )
         with self.assertRaises(ValidationError) as cm:
             image.full_clean()
-        self.assertIn('The maximum file size that can be uploaded is 10MB.', str(cm.exception))
+        self.assertIn(
+            'The maximum file size that can be uploaded is 10MB.',
+            str(cm.exception)
+        )

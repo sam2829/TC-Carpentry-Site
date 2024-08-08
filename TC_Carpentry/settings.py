@@ -99,7 +99,7 @@ CORS_ALLOWED_ORIGINS = [
 # added
 CORS_ALLOW_CREDENTIALS = True
 
-#added
+# added
 # CORS_ALLOWED_HEADERS = [
 #     'content-type',
 #     'accept',

@@ -7,13 +7,14 @@ import os
 
 
 def validate_image(file):
-        # Ensure the file is an image
-        valid_extensions = ['jpg', 'jpeg', 'png', 'gif']
-        extension = file.name.split('.')[-1].lower()
-        if extension not in valid_extensions:
-            raise ValidationError(f"Unsupported file extension. Allowed extensions are {valid_extensions}")
-        
-        
+    # Ensure the file is an image
+    valid_extensions = ['jpg', 'jpeg', 'png', 'gif']
+    extension = file.name.split('.')[-1].lower()
+    if extension not in valid_extensions:
+        raise ValidationError(
+            f"Unsupported file extension. Allowed extensions are "
+            f"{valid_extensions}"
+        )
 
         # Optionally, check the image dimensions
         try:
@@ -21,11 +22,16 @@ def validate_image(file):
             filesize = file.size
             max_filesize = 10 * 1024 * 1024  # 10MB in bytes
             if filesize > max_filesize:
-                raise ValidationError("The maximum file size that can be uploaded is 10MB.")
+                raise ValidationError(
+                    "The maximum file size that can be uploaded is 10MB."
+                )
             width, height = get_image_dimensions(file)
             max_dimension = 4096
             if width > max_dimension or height > max_dimension:
-                raise ValidationError(f"Image dimensions are too large. Maximum width and height allowed is {max_dimension}px.")
+                raise ValidationError(
+                    f"Image dimensions are too large. Maximum width and height"
+                    f" allowed is {max_dimension}px."
+                )
         except AttributeError:
             raise ValidationError("Invalid image file.")
 
@@ -51,9 +57,13 @@ class Images(models.Model):
         (SKIRTINGS, 'Skirtings'),
         (OTHER, 'Other'),
     ]
-    image = models.ImageField(upload_to='images/', blank=False, validators=[validate_image])
+    image = models.ImageField(
+        upload_to='images/', blank=False, validators=[validate_image]
+    )
     description = models.TextField(max_length=50, blank=False)
-    work_type = models.CharField(max_length=15, choices=WORK_TYPE_CHOICES, blank=False)
+    work_type = models.CharField(
+        max_length=15, choices=WORK_TYPE_CHOICES, blank=False
+    )
     created_at = models.DateTimeField(auto_now_add=True)
     main_page = models.BooleanField(default=False)
     portfolio_page = models.BooleanField(default=True)
@@ -67,8 +77,6 @@ class Images(models.Model):
     def clean(self):
         # Make sure that main page or portfolio page is selected
         if not (self.main_page or self.portfolio_page):
-            raise ValidationError('At least one of main page or portfolio page must be selected.')
-        
-        
-    
-        
+            raise ValidationError(
+                'At least one of main page or portfolio page must be selected.'
+            )
