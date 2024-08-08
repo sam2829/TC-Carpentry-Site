@@ -498,13 +498,13 @@ Google fonts was used to provide the font for the site.
 
 Prettier is used as code formatting tool which helped me structure my code in the correct way.
 
-[Back to top](#strongest-avenger-react)
+[Back to top](#tc-carpentry)
 
 ### Testing
 
 I have included details of my testing during and post development in a separate file called [TESTING_FRONTEND.md](TESTING_FRONTEND.md)
 
-[Back to top](#strongest-avenger-react)
+[Back to top](#tc-carpentry)
 
 ### Credits
 
@@ -520,5 +520,5 @@ I have included details of my testing during and post development in a separate 
 
 - Font Awesome-  For Providing the icons used throughout this project.
 
-[Back to top](#strongest-avenger-react)
+[Back to top](#tc-carpentry)
 
