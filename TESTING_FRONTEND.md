@@ -115,3 +115,13 @@ Contact us page:
 ![Mobile Contact Us Page Lighthouse](/docs/testing_frontend_screenshots/mobile-contactuspage-lighthouse.png)
 
 </details>
+
+[back to top](#tc-carpentry-react-testing)
+
+### ESLint JavaScript
+
+Most of the JavaScript code validation was done through the help of the prettier code formatting extension and ESLint running through the production of the app.
+
+All JavaScript files were then validated using ESLint JavaScript validator, which reported back no issues. 
+
+[back to top](#tc-carpentry-react-testing)
