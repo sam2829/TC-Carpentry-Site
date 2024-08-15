@@ -28,7 +28,7 @@ Full test table:
 |`Homepage`|
 | When user first loads site. | When the page first loads, the with a clear homepage displaying all information about TC Carpentry, photos, navbar, contact form. | Loaded the homepage. | Homepage loads and I am presented with a clear homepage displaying all different information on TC Carpentry and contact form. | Pass |
 | Slideshow | When home page loads, the user is presented with a slideshow which automatcally displays different images of TC Carpentrys work. | Loaded the homepage. | Homepage loads and I am presented with a slideshow of different images of work done by TC Carpentry. | Pass |
-| Contact us buttons re-direct to correct page. | When a user clicks on the contact us button in the info section, the user should be re-directed to the contact us page. | Clicked on both contact us buttons numerous times. | Each time I was re-directed to the contact us page. |
+| Contact us buttons re-direct to correct page. | When a user clicks on the contact us button in the info section, the user should be re-directed to the contact us page. | Clicked on both contact us buttons numerous times. | Each time I was re-directed to the contact us page. | Pass |
 |`Navbar`|
 | Check user can navigate using navbar. | If the user is on any page on the site, the user is able to click on any link on the navbar and re-directed to the correct page. | Whilst on the site, I tried navigating from page to page clicking on all the different links. | Each time I clicked on a navbar link, I was re-directed to the correct page. | Pass |
 | Hamburger menu. | When on a mobile device the navbar should now be a drop down hamburger menu. | Loaded the site on several mobile devices. | Each time the navbar was in the form of the hamburger menu. | Pass |
@@ -59,3 +59,59 @@ Full test table:
 | Contact us page loads. | When the user visits the contact us page, they can clearly see information about how to contact TC Carpentry. | Visited the about us page. | I could clearly see information explaining how to contact TC Carpentry. | Pass |
 
 [back to top](#tc-carpentry-react-testing)
+
+## Validators
+
+### Lighthouse
+
+<details>
+
+<summary>Desktop</summary>
+
+Homepage:
+
+![Desktop Homepage Lighthouse](/docs/testing_frontend_screenshots/desktop-homepage-lighthouse.png)
+
+Services page:
+
+![Desktop Services Page Lighthouse](/docs/testing_frontend_screenshots/desktop-servicespage-lighthouse.png)
+
+Portfolio page:
+
+![Desktop Portfolio Page Lighthouse](/docs/testing_frontend_screenshots/desktop-portfoliopage-lighthouse.png)
+
+About us page:
+
+![Desktop About Us Page Lighthouse](/docs/testing_frontend_screenshots/desktop-aboutuspage-lighthouse.png)
+
+Contact us page:
+
+![Desktop Contact Us Page Lighthouse](/docs/testing_frontend_screenshots/desktop-contactuspage-lighthouse.png)
+
+</details>
+
+<details>
+
+<summary>Mobile</summary>
+
+Homepage:
+
+![Mobile Homepage Lighthouse](/docs/testing_frontend_screenshots/mobile-homepage-lighthouse.png)
+
+Services page:
+
+![Mobile Services Page Lighthouse](/docs/testing_frontend_screenshots/mobile-servicespage-lighthouse.png)
+
+Portfolio page:
+
+![Mobile Portfolio Page Lighthouse](/docs/testing_frontend_screenshots/mobile-portfoliopage-lighthouse.png)
+
+About us page:
+
+![Mobile About Us Page Lighthouse](/docs/testing_frontend_screenshots/mobile-aboutuspage-lighthouse.png)
+
+Contact us page:
+
+![Mobile Contact Us Page Lighthouse](/docs/testing_frontend_screenshots/mobile-contactuspage-lighthouse.png)
+
+</details>
