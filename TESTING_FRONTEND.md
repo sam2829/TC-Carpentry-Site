@@ -125,3 +125,47 @@ Most of the JavaScript code validation was done through the help of the prettier
 All JavaScript files were then validated using ESLint JavaScript validator, which reported back no issues. 
 
 [back to top](#tc-carpentry-react-testing)
+
+### W3C CSS Validator
+
+W3C CSS Validator was used to validate the site's CSS code. All style pages return with no errors found:
+
+![W3C CSS Validattion Screenshot](/docs/testing_frontend_screenshots/css-validation.png)
+
+## Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards. The site was also tested on multiple browsers and devices.
+
+Browser test table:
+
+| Browser Tested | Actual Result | Pass / Fail |
+| --- | --- | --- |
+| Chrome | As Expected | Pass |
+| Firefox | As Expected | Pass |
+| Edge | As Expected | Pass |
+|Samsung | As Expected | Pass |
+
+Devices tested and devices using google tools:
+
+| Device Tested | Actual Result | Pass / Fail |
+| --- | --- | --- |
+| Acer Laptop | As expected | Pass |
+| Samsung 22 inch Screen | As expected | Pass |
+| i Phone SE | As expected | Pass |
+| i Phone XR | As expected | Pass |
+| i Phone 12 Pro | As expected | Pass |
+| i Phone 14 Pro Max | As expected | Pass |
+| Pixel 7 | As expected | Pass |
+| Samsung Galaxy S8 | As expected | Pass |
+| Samsung S20 Ultra | As expected | Pass |
+| iPad Mini | As expected | Pass |
+| iPad Air | As expected | Pass |
+| iPad Pro | As expected | Pass |
+| Surface Pro 7 | As expected | Pass |
+| Surface Duo | As expected | Pass |
+| Galaxy Fold | As expected | Pass |
+| Samsung Galaxy A51/71 | As expected | Pass |
+| Nest Hub | As expected | Pass |
+| Nest Hub Max | As expected | Pass |
+
+[back to top](#tc-carpentry-react-testing)
