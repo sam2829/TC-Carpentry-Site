@@ -93,7 +93,7 @@ const HomeInfoSection = () => {
               highest standards of workmanship.
             </p>
             <p className="my-3">
-              As a small, dedicated company, we offer a personalized service
+              As a small, dedicated company, we offer a personalised service
               that enhances customer satisfaction and demonstrates our strong
               commitment to quality.
             </p>
@@ -104,7 +104,7 @@ const HomeInfoSection = () => {
               matched by the high standards of work we deliver.
             </p>
             <p className="my-3">
-              We also prioritize cleanliness and will leave your space as clean
+              We also prioritise cleanliness and will leave your space as clean
               and tidy as we found it upon completion of the job.
             </p>
             <p className="my-3">

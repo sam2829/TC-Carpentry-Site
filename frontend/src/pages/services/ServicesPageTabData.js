@@ -8,14 +8,14 @@ import ServicesPageWindowTab from "./ServicesPageWindowTab";
 
 // Data for the tabs on the services page
 const tabData = [
-  { eventKey: "roof", title: "Roof", component: <ServicesPageRoofTab /> },
+  { eventKey: "roof", title: "Roofing", component: <ServicesPageRoofTab /> },
   {
     eventKey: "kitchen",
-    title: "Kitchen",
+    title: "Kitchens",
     component: <ServicesPageKitchenTab />,
   },
   { eventKey: "doors", title: "Doors", component: <ServicesPageDoorTab /> },
-  { eventKey: "floors", title: "Floors", component: <ServicesPageFloorTab /> },
+  { eventKey: "floors", title: "Flooring", component: <ServicesPageFloorTab /> },
   {
     eventKey: "skirtings",
     title: "Skirtings",

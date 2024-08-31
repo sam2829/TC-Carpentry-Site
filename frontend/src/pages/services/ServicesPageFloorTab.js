@@ -14,7 +14,7 @@ const ServicesPageFloorTab = () => {
     <>
       <Row>
         <Col xs={12} lg={8}>
-          <h2 className={`${styles.Tab} my-5`}>Floors</h2>
+          <h2 className={`${styles.Tab} my-5`}>Flooring</h2>
           <p className="mt-3">
             At TC Carpentry, we specialize in high-quality flooring solutions
             tailored to your needs. Whether you're looking to install elegant

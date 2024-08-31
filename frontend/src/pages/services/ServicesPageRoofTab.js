@@ -14,7 +14,7 @@ const ServicesPageRoofTab = () => {
     <>
       <Row>
         <Col xs={12} lg={8}>
-          <h2 className={`${styles.Tab} my-5`}>Roofs</h2>
+          <h2 className={`${styles.Tab} my-5`}>Roofing</h2>
           <p className="mt-3">
             At TC Carpentry, we offer comprehensive roofing services that cover
             all aspects of carpentry. Whether you need a new roof installation,
