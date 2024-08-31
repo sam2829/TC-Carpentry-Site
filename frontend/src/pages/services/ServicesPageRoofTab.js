@@ -16,17 +16,15 @@ const ServicesPageRoofTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Roofs</h2>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-            ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+            At TC Carpentry, we offer comprehensive roofing services that cover
+            all aspects of carpentry. Whether you need a new roof installation,
+            repairs, or custom roofing solutions, our skilled team is equipped
+            to handle projects of any size and complexity. We work with a wide
+            range of materials and styles to ensure your roof not only looks
+            great but also provides long-lasting protection. Whether you have
+            your own materials or need us to source them, we’re committed to
+            delivering exceptional craftsmanship and ensuring your roof meets
+            the highest standards of quality and durability.
           </p>
         </Col>
         <Col xs={12} lg={4}>

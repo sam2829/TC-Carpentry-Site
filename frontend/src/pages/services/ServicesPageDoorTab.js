@@ -16,17 +16,14 @@ const ServicesPageDoorTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Doors</h2>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-            ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+            At TC Carpentry, we specialize in fitting all types of doors,
+            regardless of make or size. Whether it's an interior or exterior
+            door, cupboard or wardrobe doors, we have the expertise to handle it
+            all. We're happy to work with doors you provide or source them
+            ourselves to meet your exact specifications. Our team is committed
+            to delivering precise and professional installation, ensuring every
+            door fits perfectly and functions flawlessly. Whatever your door
+            needs, TC Carpentry is here to provide a tailored solution.
           </p>
         </Col>
         {/* Display images */}

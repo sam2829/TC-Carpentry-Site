@@ -16,17 +16,15 @@ const ServicesPageSkirtingTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Skirtings</h2>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-            ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+            At TC Carpentry, we offer expert installation and customization of
+            skirting boards to add a refined touch to any room. Our skilled team
+            can handle a variety of styles and materials, from traditional
+            designs to modern profiles, ensuring a perfect match with your
+            interior decor. We meticulously measure, cut, and install skirting
+            boards to achieve a seamless and polished finish. Whether you supply
+            the materials or prefer us to source them, we are dedicated to
+            delivering superior craftsmanship and attention to detail, enhancing
+            both the aesthetic and functional aspects of your space.
           </p>
         </Col>
         <Col xs={12} lg={4}>

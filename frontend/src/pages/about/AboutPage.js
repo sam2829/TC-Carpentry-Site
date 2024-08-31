@@ -12,40 +12,31 @@ const AboutPage = ({ showAlert }) => {
       <Container className="my-5">
         {/* about us information */}
         <Row>
-          <h2 className="my-5">About us</h2>
+          <h2 className="my-5">About TC Carpentry</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-            ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
-            nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-            Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-            nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+            TC Carpentry is a premier carpentry company based in Abergavenny,
+            Monmouthshire, UK, with over 18 years of experience in the industry.
+            We pride ourselves on delivering top-quality craftsmanship across a
+            broad spectrum of carpentry services, from kitchen fitting and
+            roofing to bespoke shelving and custom storage solutions. Our
+            dedicated team combines extensive expertise with a passion for
+            precision, ensuring every project is completed to the highest
+            standards.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+          <p className="my-3">
+            As a small, client-focused company, we offer a personalized approach
+            that sets us apart. We believe in building strong relationships with
+            our clients, understanding their unique needs, and providing
+            tailored solutions that exceed expectations. Our commitment to
+            excellence is reflected in our attention to detail, high-quality
+            materials, and meticulous workmanship.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend
+          <p className="my-3">
+            At TC Carpentry, we are not just about completing a job; we are
+            about crafting lasting results and ensuring your satisfaction.
+            Whether you're embarking on a renovation project or need specialized
+            carpentry services, we are here to bring your vision to life with
+            professionalism and skill.
           </p>
         </Row>
         {/* contact form */}

@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import styles from "../../styles/ServicesPageInfoSection.module.css";
 
 // component to render the info for services page
 const ServicesPageInfoSection = () => {
@@ -10,17 +12,18 @@ const ServicesPageInfoSection = () => {
         <Col xs={12}>
           <h2 className="my-5">Services</h2>
           <p className="my-3">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-            ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+            At TC Carpentry, we provide comprehensive carpentry services,
+            including kitchen fitting, roofing, door installation, flooring,
+            skirting boards, custom storage solutions, shelving, stairs, and a
+            range of first and second fix carpentry work.
+          </p>
+          <p className="my-3">
+            If you don't see the specific service you're looking for, please get
+            in touch with us. You can call us at 07875922802, visit the{" "}
+            <Link to="/contact" className={styles.TextLink}>
+              contact
+            </Link>{" "}
+            page, or complete the form below.
           </p>
         </Col>
       </Row>

@@ -16,17 +16,15 @@ const ServicesPageFloorTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Floors</h2>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-            ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+            At TC Carpentry, we specialize in high-quality flooring solutions
+            tailored to your needs. Whether you're looking to install elegant
+            hardwood, durable laminate, or stylish engineered flooring, our
+            experienced team is here to deliver impeccable results. We handle
+            all aspects of flooring installation, from subfloor preparation to
+            the final finish, ensuring a seamless and professional outcome. If
+            you have your own materials or need us to supply them, we are
+            committed to providing exceptional craftsmanship and a flawless
+            finish that enhances the beauty and functionality of your space.
           </p>
         </Col>
         <Col xs={12} lg={4}>

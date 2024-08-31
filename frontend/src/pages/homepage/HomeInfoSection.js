@@ -17,38 +17,35 @@ const HomeInfoSection = () => {
       <Container className="my-5">
         <Row className="my-5">
           <Col xs={12} lg={8}>
-            <h3 className="my-3">TC Carpentry</h3>
+            <h3 className="my-3">Welcome to TC Carpentry</h3>
             <p className="my-3">
-              TC Carpentry is a skilled carpentry company based in Abergavenny,
-              Monmouthshire, UK. Here at TC Carpentry we have over 18 years of
-              experience in all aspects of carpentry.
+              Based in Abergavenny, Monmouthshire, UK, TC Carpentry brings over
+              18 years of expertise to all aspects of carpentry. Our skilled
+              team is dedicated to delivering top-quality craftsmanship for
+              projects of any size.
             </p>
             <p className="my-3">
-              We provide carpentry services to all, with no job to big or to
-              small.
+              We offer a full range of carpentry services, including kitchen
+              fitting, roofing, door installation, flooring, skirting boards,
+              custom storage solutions, shelving, stairs, and other first and
+              second fix carpentry work.
             </p>
             <p className="my-3">
-              We cover all aspects of Carpentry work including Kitchen fitting,
-              Roofing, Doors, Flooring, Skirting boards, Custom Storage,
-              Shelving, stairs and many other first and second fix work of
-              carpentry.
-            </p>
-            <p className="my-3">
-              We hope you find us a very professional company that can help
-              understand your plans and provide the high standards of work you
-              need. You can view all recent work in our{" "}
+              Our goal is to provide you with a professional service that
+              understands your vision and meets the highest standards of
+              quality. You can explore our recent projects in our{" "}
               <Link to="/portfolio" className={styles.TextLink}>
                 portfolio
               </Link>
               .
             </p>
             <p className="my-3">
-              You can also visit our{" "}
+              For more details about our services and how we can assist with
+              your project, please visit our{" "}
               <Link to="/services" className={styles.TextLink}>
                 services
               </Link>{" "}
-              page to find out more about what we do and how we can help you get
-              exactly what you have been looking for.
+              page.
             </p>
             {/** Link to contact page */}
             <Link to="/contact">
@@ -85,39 +82,38 @@ const HomeInfoSection = () => {
           <Col xs={12} lg={8}>
             <h3 className="my-3">Why Choose Us?</h3>
             <p className="my-3">
-              Here at TC Carpentry we extremely dedicated and take great pride
-              in what we do, with our main goal to deliver customer satisfaction
-              to the highest of standards.
+              At TC Carpentry, we are deeply committed to delivering exceptional
+              craftsmanship and ensuring the highest levels of customer
+              satisfaction. Our primary goal is to meet and exceed your
+              expectations with every project.
             </p>
             <p className="my-3">
-              Our carpenters a highly experienced and are qualified to the
-              highest standards with City and Guilds Level 3.
+              Our team of carpenters is highly experienced and holds City and
+              Guilds Level 3 qualifications, reflecting our commitment to the
+              highest standards of workmanship.
             </p>
             <p className="my-3">
-              We are a small company but we believe this gives a more personal
-              service for the customer, which helps deliver higher customer
-              satisfactions and overall a stronger commitment to higher
-              standards.
+              As a small, dedicated company, we offer a personalized service
+              that enhances customer satisfaction and demonstrates our strong
+              commitment to quality.
             </p>
             <p className="my-3">
-              All quoations are free with no obligation, so whatever carpentry
-              work you are looking for, please be sure to speak to us first. We
-              are confident that you will find our prices competitive and fair,
-              along with the high standards we provide.
+              We provide free, no-obligation quotations, ensuring you have all
+              the information you need to make an informed decision. We are
+              confident that you will find our prices both competitive and fair,
+              matched by the high standards of work we deliver.
             </p>
             <p className="my-3">
-              We will also make sure that when we finish any job, you find the
-              areas we've been working in as clean and tidy as when we came to
-              the job.
+              We also prioritize cleanliness and will leave your space as clean
+              and tidy as we found it upon completion of the job.
             </p>
             <p className="my-3">
-              If you would like to arrange a free quote today or if you have any
-              queries regarding any carpentry work, you can call us on
-              07875922802, go to the{" "}
+              To arrange a free quote or if you have any questions about our
+              carpentry services, please call us at 07875922802, visit our{" "}
               <Link to="/contact" className={styles.TextLink}>
                 contact
               </Link>{" "}
-              page or fill out the form below.
+              page, or fill out the form below.
             </p>
             {/** Link to contact page */}
             <Link to="/contact">

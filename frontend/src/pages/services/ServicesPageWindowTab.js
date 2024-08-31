@@ -16,17 +16,16 @@ const ServicesPageWindowTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Windows</h2>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-            ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+            At TC Carpentry, we provide expert services for all your window
+            needs, from installation to repair and customization. Our
+            experienced team handles a wide range of window types and styles,
+            including traditional sash, contemporary casement, and bespoke
+            designs, ensuring a perfect fit and finish for your home. Whether
+            you need new windows installed, existing ones repaired, or custom
+            solutions crafted, we are committed to delivering high-quality
+            workmanship and exceptional attention to detail. If you have your
+            own windows or require us to source them, our goal is to enhance
+            your space with both functional and aesthetic excellence.
           </p>
         </Col>
         <Col xs={12} lg={4}>

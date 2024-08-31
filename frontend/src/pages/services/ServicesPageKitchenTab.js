@@ -16,17 +16,16 @@ const ServicesPageKitchenTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Kitchens</h2>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-            ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+            At TC Carpentry, we provide expert carpentry services for all your
+            kitchen needs. From designing and installing custom cabinetry to
+            crafting unique kitchen features, our skilled team ensures your
+            kitchen is both functional and stylish. We work with a variety of
+            materials and finishes to create a space that perfectly suits your
+            taste and lifestyle. Whether you’re renovating your existing kitchen
+            or starting from scratch, we offer tailored solutions and meticulous
+            craftsmanship. If you have your own materials or need us to provide
+            them, we’re dedicated to delivering exceptional results that enhance
+            your kitchen's beauty and functionality.
           </p>
         </Col>
         <Col xs={12} lg={4}>
