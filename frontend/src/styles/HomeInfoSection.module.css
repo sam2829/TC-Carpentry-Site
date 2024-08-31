@@ -4,3 +4,8 @@
     border: 1px solid #cd8d51;
     border-radius: 125px;
 }
+
+.TextLink {
+    color: #cd8d51;
+    text-decoration: none;
+}
