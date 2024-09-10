@@ -12,16 +12,16 @@ const AboutPage = ({ showAlert }) => {
       <Container className="my-5">
         {/* about us information */}
         <Row>
-          <h2 className="my-5">About TC Carpentry</h2>
+          <h2 className="my-5">About Tom Costin Carpentry</h2>
           <p>
-            TC Carpentry is a premier carpentry company based in Abergavenny,
-            Monmouthshire, UK, with over 18 years of experience in the industry.
-            We pride ourselves on delivering top-quality craftsmanship across a
-            broad spectrum of carpentry services, from kitchen fitting and
-            roofing to bespoke shelving and custom storage solutions. Our
-            dedicated team combines extensive expertise with a passion for
-            precision, ensuring every project is completed to the highest
-            standards.
+            Tom Costin Carpentry is a premier carpentry company based in
+            Abergavenny, Monmouthshire, UK, with over 18 years of experience in
+            the industry. We pride ourselves on delivering top-quality
+            craftsmanship across a broad spectrum of carpentry services, from
+            kitchen fitting and roofing to bespoke shelving and custom storage
+            solutions. Our dedicated team combines extensive expertise with a
+            passion for precision, ensuring every project is completed to the
+            highest standards.
           </p>
           <p className="my-3">
             As a small, client-focused company, we offer a personalized approach
@@ -32,8 +32,8 @@ const AboutPage = ({ showAlert }) => {
             materials, and meticulous workmanship.
           </p>
           <p className="my-3">
-            At TC Carpentry, we are not just about completing a job; we are
-            about crafting lasting results and ensuring your satisfaction.
+            At Tom Costin Carpentry, we are not just about completing a job; we
+            are about crafting lasting results and ensuring your satisfaction.
             Whether you're embarking on a renovation project or need specialized
             carpentry services, we are here to bring your vision to life with
             professionalism and skill.

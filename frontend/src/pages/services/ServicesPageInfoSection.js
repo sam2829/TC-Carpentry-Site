@@ -12,7 +12,7 @@ const ServicesPageInfoSection = () => {
         <Col xs={12}>
           <h2 className="my-5">Services</h2>
           <p className="my-3">
-            At TC Carpentry, we provide comprehensive carpentry services,
+            At Tom Costin Carpentry, we provide comprehensive carpentry services,
             including kitchen fitting, roofing, door installation, flooring,
             skirting boards, custom storage solutions, shelving, stairs, and a
             range of first and second fix carpentry work.

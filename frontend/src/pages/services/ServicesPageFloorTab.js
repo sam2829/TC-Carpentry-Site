@@ -16,7 +16,7 @@ const ServicesPageFloorTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Flooring</h2>
           <p className="mt-3">
-            At TC Carpentry, we specialize in high-quality flooring solutions
+            At Tom Costin Carpentry, we specialize in high-quality flooring solutions
             tailored to your needs. Whether you're looking to install elegant
             hardwood, durable laminate, or stylish engineered flooring, our
             experienced team is here to deliver impeccable results. We handle

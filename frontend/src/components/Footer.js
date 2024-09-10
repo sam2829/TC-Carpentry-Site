@@ -10,18 +10,19 @@ const Footer = () => {
     <section className={styles.Footer}>
       <Row>
         <Col xs={12}>
-          <h4 className="my-3">TC Carpentry</h4>
+          <h4 className="my-3">Tom Costin Carpentry</h4>
         </Col>
       </Row>
       <Row>
         <Col xs={12} md={6}>
-          <p>Address line 1</p>
-          <p>Abergavenny</p>
+          <p>Ysgubor Derwen Fawr</p>
+          <p>Bryngwyn</p>
+          <p>Raglan</p>
           <p>Monmouthshire</p>
-          <p>NP7 5SD</p>
+          <p>NP15 2DD</p>
         </Col>
         <Col xs={12} md={6} className="mt-4 pt-3">
-          <p>TomCostin@outlook.com</p>
+          <p>Tom-Costin@live.co.uk</p>
           <p>07875922802</p>
         </Col>
       </Row>
@@ -29,7 +30,7 @@ const Footer = () => {
       <Row className="justify-content-center">
         <Col xs={1} className={styles.Icon}>
           <a
-            href="mailto: samscarisbrick@outlook.com"
+            href="mailto: Tom-Costin@live.co.uk"
             target="_blank"
             rel="noopener noreferrer"
           >

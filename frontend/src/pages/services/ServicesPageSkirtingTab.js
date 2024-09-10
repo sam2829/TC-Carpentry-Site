@@ -16,7 +16,7 @@ const ServicesPageSkirtingTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Skirtings</h2>
           <p className="mt-3">
-            At TC Carpentry, we offer expert installation and customization of
+            At Tom Costin Carpentry, we offer expert installation and customization of
             skirting boards to add a refined touch to any room. Our skilled team
             can handle a variety of styles and materials, from traditional
             designs to modern profiles, ensuring a perfect match with your

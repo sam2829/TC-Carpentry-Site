@@ -25,7 +25,10 @@ const NavBar = () => {
           <Navbar.Brand className={`px-5 ${styles.Logo}`}>
             <Link to="/" className={styles.Link}>
               <i className="fa-solid fa-hammer pe-3"></i>
-              TC Carpentry
+              <div className={styles.textContainer}>
+                <span className={styles.name}>Tom Costin</span>
+                <span className={styles.profession}>Carpentry</span>
+              </div>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle

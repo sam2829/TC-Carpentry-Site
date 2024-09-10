@@ -18,23 +18,25 @@ const ContactPage = ({ showAlert }) => {
             services, need a free quote, or want to discuss your upcoming
             project, feel free to contact us. Our team is here to assist you
             with any inquiries you may have and ensure that your experience with
-            TC Carpentry is as smooth and enjoyable as possible. Below you’ll
-            find our contact details. We look forward to connecting with you!
+            Tom Costin Carpentry is as smooth and enjoyable as possible. Below
+            you’ll find our contact details. We look forward to connecting with
+            you!
           </p>
         </Row>
         <Row className="mt-5">
           <Col xs={12} lg={6}>
             <h4 className="mb-4">Address:</h4>
-            <p>Address line 1</p>
-            <p>Abergavenny</p>
-            <p>Monmouthsire</p>
-            <p>NP7 9TH</p>
+            <p>Ysgubor Derwen Fawr</p>
+            <p>Bryngwyn</p>
+            <p>Raglan</p>
+            <p>Monmouthshire</p>
+            <p>NP15 2DD</p>
           </Col>
           <Col xs={12} lg={6}>
             <h4 className="my-4">Phone Number:</h4>
             <p>07875922802</p>
             <h4 className="my-4">Email Address:</h4>
-            <p>tomcostin@outlook.com</p>
+            <p>Tom-Costin@live.co.uk</p>
           </Col>
         </Row>
         <Row>

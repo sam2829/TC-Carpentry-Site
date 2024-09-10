@@ -16,16 +16,17 @@ const ServicesPageKitchenTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Kitchens</h2>
           <p className="mt-3">
-            At TC Carpentry, we provide expert carpentry services for all your
-            kitchen needs. From designing and installing custom cabinetry to
-            crafting unique kitchen features, our skilled team ensures your
-            kitchen is both functional and stylish. We work with a variety of
-            materials and finishes to create a space that perfectly suits your
-            taste and lifestyle. Whether you’re renovating your existing kitchen
-            or starting from scratch, we offer tailored solutions and meticulous
-            craftsmanship. If you have your own materials or need us to provide
-            them, we’re dedicated to delivering exceptional results that enhance
-            your kitchen's beauty and functionality.
+            At Tom Costin Carpentry, we provide expert carpentry services for
+            all your kitchen needs. From designing and installing custom
+            cabinetry to crafting unique kitchen features, our skilled team
+            ensures your kitchen is both functional and stylish. We work with a
+            variety of materials and finishes to create a space that perfectly
+            suits your taste and lifestyle. Whether you’re renovating your
+            existing kitchen or starting from scratch, we offer tailored
+            solutions and meticulous craftsmanship. If you have your own
+            materials or need us to provide them, we’re dedicated to delivering
+            exceptional results that enhance your kitchen's beauty and
+            functionality.
           </p>
         </Col>
         <Col xs={12} lg={4}>

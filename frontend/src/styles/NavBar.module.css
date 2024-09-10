@@ -64,7 +64,7 @@
 
 .Logo {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   padding-bottom: 30px;
   padding-top: 30px;
   
@@ -73,6 +73,22 @@
 .Link {
   color: black !important;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 22px; 
+}
+
+.profession {
+  font-size: 22px; 
 }
 
 /* styling for smaller screens */
@@ -87,9 +103,26 @@
 @media (max-width: 600px) {
   /* Styles for screens smaller than or equal to 600px */
   .Link {
-    font-size: 25px;
+    font-size: 30px;
     padding-bottom: 32px;
     padding-top: 32px;
+  }
+
+  .Logo {
+    padding-top: 0;
+    padding-bottom: 0
+  }
+
+  .name {
+    font-size: 20px; 
+  }
+  
+  .profession {
+    font-size: 20px; 
+  }
+
+  .navLinks {
+    font-size: 18px;
   }
 }
 
@@ -98,9 +131,7 @@
 @media (max-width: 410px) {
   /* Styles for screens smaller than or equal to 410px */
   .Link {
-    font-size: 20px;
-    /* padding-right: 2px !important;
-    padding-left: 2px !important; */
+    font-size: 26px;
     padding-bottom: 36px;
     padding-top: 36px;
   }
@@ -113,5 +144,13 @@
     font-size: 20px;
     padding: 5px;
     
+  }
+
+  .name {
+    font-size: 18px; 
+  }
+  
+  .profession {
+    font-size: 18px; 
   }
 }

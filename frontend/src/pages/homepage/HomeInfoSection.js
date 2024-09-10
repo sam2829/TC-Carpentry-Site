@@ -17,12 +17,12 @@ const HomeInfoSection = () => {
       <Container className="my-5">
         <Row className="my-5">
           <Col xs={12} lg={8}>
-            <h3 className="my-3">Welcome to TC Carpentry</h3>
+            <h3 className="my-3">Welcome to Tom Costin Carpentry</h3>
             <p className="my-3">
-              Based in Abergavenny, Monmouthshire, UK, TC Carpentry brings over
-              18 years of expertise to all aspects of carpentry. Our skilled
-              team is dedicated to delivering top-quality craftsmanship for
-              projects of any size.
+              Based in Abergavenny, Monmouthshire, UK, Tom Costin Carpentry
+              brings over 18 years of expertise to all aspects of carpentry. Our
+              skilled team is dedicated to delivering top-quality craftsmanship
+              for projects of any size.
             </p>
             <p className="my-3">
               We offer a full range of carpentry services, including kitchen
@@ -82,9 +82,9 @@ const HomeInfoSection = () => {
           <Col xs={12} lg={8}>
             <h3 className="my-3">Why Choose Us?</h3>
             <p className="my-3">
-              At TC Carpentry, we are deeply committed to delivering exceptional
-              craftsmanship and ensuring the highest levels of customer
-              satisfaction. Our primary goal is to meet and exceed your
+              At Tom Costin Carpentry, we are deeply committed to delivering
+              exceptional craftsmanship and ensuring the highest levels of
+              customer satisfaction. Our primary goal is to meet and exceed your
               expectations with every project.
             </p>
             <p className="my-3">

@@ -16,8 +16,8 @@ const ServicesPageWindowTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Windows</h2>
           <p className="mt-3">
-            At TC Carpentry, we provide expert services for all your window
-            needs, from installation to repair and customization. Our
+            At Tom Costin Carpentry, we provide expert services for all your
+            window needs, from installation to repair and customization. Our
             experienced team handles a wide range of window types and styles,
             including traditional sash, contemporary casement, and bespoke
             designs, ensuring a perfect fit and finish for your home. Whether

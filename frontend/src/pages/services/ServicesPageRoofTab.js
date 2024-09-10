@@ -16,15 +16,15 @@ const ServicesPageRoofTab = () => {
         <Col xs={12} lg={8}>
           <h2 className={`${styles.Tab} my-5`}>Roofing</h2>
           <p className="mt-3">
-            At TC Carpentry, we offer comprehensive roofing services that cover
-            all aspects of carpentry. Whether you need a new roof installation,
-            repairs, or custom roofing solutions, our skilled team is equipped
-            to handle projects of any size and complexity. We work with a wide
-            range of materials and styles to ensure your roof not only looks
-            great but also provides long-lasting protection. Whether you have
-            your own materials or need us to source them, we’re committed to
-            delivering exceptional craftsmanship and ensuring your roof meets
-            the highest standards of quality and durability.
+            At Tom Costin Carpentry, we offer comprehensive roofing services
+            that cover all aspects of carpentry. Whether you need a new roof
+            installation, repairs, or custom roofing solutions, our skilled team
+            is equipped to handle projects of any size and complexity. We work
+            with a wide range of materials and styles to ensure your roof not
+            only looks great but also provides long-lasting protection. Whether
+            you have your own materials or need us to source them, we’re
+            committed to delivering exceptional craftsmanship and ensuring your
+            roof meets the highest standards of quality and durability.
           </p>
         </Col>
         <Col xs={12} lg={4}>
