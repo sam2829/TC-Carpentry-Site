@@ -4,8 +4,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import imageOne from "../../images/mock-photo.jpg";
-import imageTwo from "../../images/mock-photo-2.jpg";
+import imageOne from "../../images/image-6.jpg";
+import imageTwo from "../../images/image-2.jpg";
 
 import styles from "../../styles/HomeInfoSection.module.css";
 import CustomButton from "../../components/CustomButton";
