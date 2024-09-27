@@ -4,8 +4,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import imageOne from "../../images/image-6.jpg";
-import imageTwo from "../../images/image-2.jpg";
+import imageOne from "../../images/indoor-roof-image.jpg";
+import imageTwo from "../../images/new-kitchen-image.jpg";
 
 import styles from "../../styles/HomeInfoSection.module.css";
 import CustomButton from "../../components/CustomButton";
@@ -61,7 +61,7 @@ const HomeInfoSection = () => {
             <img
               className={` my-3 ${styles.Image}`}
               src={imageOne}
-              alt="work"
+              alt="work of carpentry large ceiling"
             />
           </Col>
         </Row>
@@ -75,7 +75,7 @@ const HomeInfoSection = () => {
               <img
                 className={` my-3 ${styles.Image}`}
                 src={imageTwo}
-                alt="work 2"
+                alt="work of new fitted kitchen"
               />
             </div>
           </Col>
@@ -126,7 +126,7 @@ const HomeInfoSection = () => {
             <img
               className={` my-3 ${styles.Image}`}
               src={imageTwo}
-              alt="work 2"
+              alt="work of new fitted kitchen"
             />
           </Col>
         </Row>

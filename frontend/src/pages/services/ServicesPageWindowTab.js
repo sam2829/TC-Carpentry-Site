@@ -3,10 +3,10 @@ import styles from "../../styles/ServicesPage.module.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import image1 from "../../images/windows-1.jpg";
-import image2 from "../../images/windows-2.jpg";
-import image3 from "../../images/windows-3.jpg";
-import image4 from "../../images/windows-4.jpg";
+import image1 from "../../images/new-window-image-1.jpg";
+import image2 from "../../images/new-window-image-2.jpg";
+import image3 from "../../images/new-window-image-3.jpg";
+import image4 from "../../images/holiday-let-image.jpg";
 
 // component to render the info for windows tab
 const ServicesPageWindowTab = () => {
@@ -29,19 +29,31 @@ const ServicesPageWindowTab = () => {
           </p>
         </Col>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image1} alt="roofing pciture 1" />
+          <img
+            className={styles.Image}
+            src={image1}
+            alt="new windows fitted either side of front door."
+          />
         </Col>
       </Row>
 
       <Row>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image4} alt="roofing pciture 1" />
+          <img className={styles.Image} src={image4} alt="cottage windows." />
         </Col>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image3} alt="roofing pciture 1" />
+          <img
+            className={styles.Image}
+            src={image3}
+            alt="new windos fitted upstairs and down stairs to house."
+          />
         </Col>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image2} alt="roofing pciture 1" />
+          <img
+            className={styles.Image}
+            src={image2}
+            alt="windows fitted length of house."
+          />
         </Col>
       </Row>
       <Row>

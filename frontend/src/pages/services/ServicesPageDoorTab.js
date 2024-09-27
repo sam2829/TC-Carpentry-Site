@@ -3,10 +3,10 @@ import styles from "../../styles/ServicesPage.module.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import image1 from "../../images/door-1.jpg";
-import image2 from "../../images/door-2.jpg";
-import image3 from "../../images/door-3.jpg";
-import image4 from "../../images/door-4.jpg";
+import image1 from "../../images/new-door-image-1.jpg";
+import image2 from "../../images/new-door-image-2.jpg";
+import image3 from "../../images/new-door-image-3.jpg";
+import image4 from "../../images/new-door-image-4.jpg";
 
 // component to render the info for doors tab
 const ServicesPageDoorTab = () => {
@@ -29,19 +29,35 @@ const ServicesPageDoorTab = () => {
         </Col>
         {/* Display images */}
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image2} alt="roofing pciture 1" />
+          <img
+            className={styles.Image}
+            src={image2}
+            alt="new wooden front door fitted."
+          />
         </Col>
       </Row>
 
       <Row>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image3} alt="roofing pciture 1" />
+          <img
+            className={styles.Image}
+            src={image3}
+            alt="new wooden security door fitted."
+          />
         </Col>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image4} alt="roofing pciture 1" />
+          <img
+            className={styles.Image}
+            src={image4}
+            alt="new wooden back door fitted."
+          />
         </Col>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image1} alt="roofing pciture 1" />
+          <img
+            className={styles.Image}
+            src={image1}
+            alt="new wooden door fitted to cottage."
+          />
         </Col>
       </Row>
       <Row>

@@ -3,10 +3,10 @@ import styles from "../../styles/ServicesPage.module.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import image1 from "../../images/roof-1.jpg";
-import image2 from "../../images/roof-2.jpg";
-import image3 from "../../images/roof-3.jpg";
-import image4 from "../../images/roof-4.jpg";
+import image1 from "../../images/indoor-roof-image.jpg";
+import image2 from "../../images/a-frame-image.jpg";
+import image3 from "../../images/roof-frame-image.jpg";
+import image4 from "../../images/roof-tiles-image.jpg";
 
 // component to render the info for roofs tab
 const ServicesPageRoofTab = () => {
@@ -28,19 +28,31 @@ const ServicesPageRoofTab = () => {
           </p>
         </Col>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image4} alt="roofing pciture 1" />
+          <img className={styles.Image} src={image2} alt="A frame of roof" />
         </Col>
       </Row>
 
       <Row>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image1} alt="roofing pciture 1" />
+          <img
+            className={styles.Image}
+            src={image1}
+            alt="roof ceiling from inside"
+          />
         </Col>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image2} alt="roofing pciture 1" />
+          <img
+            className={styles.Image}
+            src={image4}
+            alt="roof wokr after being tiled"
+          />
         </Col>
         <Col xs={12} lg={4}>
-          <img className={styles.Image} src={image3} alt="roofing pciture 1" />
+          <img
+            className={styles.Image}
+            src={image3}
+            alt="carpentry work roof frame"
+          />
         </Col>
       </Row>
       <Row>
