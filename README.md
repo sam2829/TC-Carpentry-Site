@@ -358,6 +358,144 @@ Admin is also protected my username and password from Django's built in admin us
 
 As a User I would like to view the site on all my different devices so I can view site wherever I am.
 
+***Navbar***
+
+As a user I want to see a clear way of navigating around the site so that I can easily find the relative information I am looking for.
+
+The Navbar contains links for Home, Services, Portfolio, About Us and Contact Us. These options are available to all to see.
+
+The navigation menu is displayed on all pages and forms into a hamburger menu on smaller devices. This allows users to view the site from any device and not take up too much space on mobile devices. It's very clear and easy to use.
+
+There is also a hover over effect to inform the user when they are hovering over the specific link and the Navlink for the page the user is currently on will also be of a different colour to inform the user which page they are on.
+
+Desktop:
+
+![Desktop Navbar Screenshot](/docs/readme_screenshots/desktop-navbar-screenshot.png)
+
+Mobile:
+
+![Mobile Navbar Screenshot](/docs/readme_screenshots/mobile-navbar-screenshot.png)
+
+***Contact Form***
+
+The contact form is visible on every page of the site. This gives the user options to email Tom Costin Carpentry with any queries they have. It's visible on every page so the user feels good about contacting Tom Costin Carpentry and that it's easy to do so.
+
+Desktop:
+
+![Desktop Contact Form Screenshot](/docs/readme_screenshots/desktop-contact-form-screenshot.png)
+
+Mobile:
+
+![Mobile Contact Form Screenshot](/docs/readme_screenshots/mobile-contact-form-screenshot.png)
+
+***Footer***
+
+The footer is at the bottom of every page. This gives information about Tom Costin Carpentry and ways to contact. It also provides links to Facebook, LinkedIn and to email Tom Costin Carpentry.
+
+Desktop:
+
+![Desktop Footer Screenshot](/docs/readme_screenshots/desktop-footer-screenshot.png)
+
+Mobile:
+
+![Mobile Footer Screenshot](/docs/readme_screenshots/mobile-footer-screenshot.png)
+
+***Homepage***
+
+The homepage welcomes the user to the site with a slideshow which automatically displays different images showing Tom Costin Carpentry previous work. Underneath the slideshow is welcoming message and a why choose Tom Costin Carpentry.
+
+The user can then clearly see the contact form.
+
+Desktop:
+
+![Desktop Homepage Screenshot 1](/docs/readme_screenshots/desktop-homepage-screenshot-1.png)
+
+![Desktop Homepage Screenshot ](/docs/readme_screenshots/desktop-homepage-screenshot-2.png)
+
+![Desktop Homepage Screenshot 3](/docs/readme_screenshots/desktop-homepage-screenshot-3.png)
+
+![Desktop Homepage Screenshot 4](/docs/readme_screenshots/desktop-homepage-screenshot-4.png)
+
+Mobile:
+
+![Mobile Homepage Screenshot 1](/docs/readme_screenshots/mobile-homepage-screenshot-1.png)
+
+![Mobile Homepage Screenshot 2](/docs/readme_screenshots/mobile-homepage-screenshot-2.png)
+
+![Mobile Homepage Screenshot 3](/docs/readme_screenshots/mobile-homepage-screenshot-3.png)
+
+![Mobile Homepage Screenshot 4](/docs/readme_screenshots/mobile-homepage-screenshot-4.png)
+
+![Mobile Homepage Screenshot 5](/docs/readme_screenshots/mobile-homepage-screenshot-5.png)
+
+***Services Page***
+
+The services page is where the user can see all the different services Tom Costin Carpentry has to offer.
+
+This is the same layout as the homepage but instead now has a services information section followed by a tab section where they can see each individual service along with photos.
+
+Desktop:
+
+![Desktop Services Page Screenshot 1](/docs/readme_screenshots/desktop-servicespage-screenshot-1.png)
+
+![Desktop Services Page Screenshot 2](/docs/readme_screenshots/desktop-servicespage-screenshot-2.png)
+
+
+Mobile:
+
+![Mobile Services Page Screenshot 1](/docs/readme_screenshots/mobile-servicespage-screenshot-1.png)
+
+![Mobile Services Page Screenshot 2](/docs/readme_screenshots/mobile-servicespage-screenshot-2.png)
+
+***Portfolio Page***
+
+The portfolio page is where the user can see all the images from Tom Costin Carpentry previous work.
+
+This is the same layout as the homepage but instead now has a tab section where they can see optional types of work to select from in the tabs, which when selected will display all the relevant photos.
+
+Desktop:
+
+![Desktop Portfolio Page Screenshot 1](/docs/readme_screenshots/desktop-portfoliopage-screenshot-1.png)
+
+![Desktop Portfolio Page Screenshot 2](/docs/readme_screenshots/desktop-portfoliopage-screenshot-2.png)
+
+
+Mobile:
+
+![Mobile Portfolio Page Screenshot 1](/docs/readme_screenshots/mobile-portfoliopage-screenshot-1.png)
+
+![Mobile Portfolio Page Screenshot 2](/docs/readme_screenshots/mobile-portfoliopage-screenshot-2.png)
+
+***About Us Page***
+
+The About Us page is where the user can read all about Tom Costin Carpentry in depth and find out information like years of experience, qualifications, the size of the company and much more. This gives the user chance to understand the company.
+
+This is the same layout as the homepage but instead now has the about us section information.
+
+Desktop:
+
+![Desktop About Us Page Screenshot](/docs/readme_screenshots/desktop-aboutuspage-screenshot.png)
+
+Mobile:
+
+![Mobile About Us Page Screenshot 1](/docs/readme_screenshots/mobile-aboutuspage-screenshot.png)
+
+***Contact Us Page***
+
+The Contact Us page is where the user can find out all the different ways in which they can contact Tom Costin Carpentry.
+
+This is the same layout as the homepage but instead now has the contact us section information.
+
+Desktop:
+
+![Desktop Contact Us Page Screenshot](/docs/readme_screenshots/desktop-contactuspage-screenshot.png)
+
+Mobile:
+
+![Mobile Contact Us Page Screenshot 1](/docs/readme_screenshots/mobile-contactuspage-screenshot-1.png)
+
+![Mobile Contact Us Page Screenshot 2](/docs/readme_screenshots/mobile-contactuspage-screenshot-2.png)
+
 #### The Surface Plane
 
 ##### Design
