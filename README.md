@@ -1,16 +1,16 @@
-# TC Carpentry
+# Tom Costin Carpentry
 
 ## Overview
 
-TC Carpentry is a website designed for a local buissness, who provide a service on all aspects of carpentry. This site is to allow users to understand more about TC Carpentry, see the work they have done and be able to contact them regarding any work they would like done.
+Tom Costin Carpentry is a website designed for a local buissness, who provide a service on all aspects of carpentry. This site is to allow users to understand more about Tom Costin Carpentry, see the work they have done and be able to contact them regarding any work they would like done.
 
-Here is a live version of my project [TC Carpentry](https://tc-carpentry-d2974ed67d90.herokuapp.com/)
+Here is a live version of my project [Tom Costin Carpentry](https://tc-carpentry-d2974ed67d90.herokuapp.com/)
 
 ![Am I Responsive Screenshot](/docs/readme_screenshots/am-i-responsive.png)
 
 ## Content
 
-- [TC Carpentry](#tc-carpentry)
+- [Tom Costin Carpentry](#tom-costin-carpentry)
   - [Overview](#overview)
   - [Backend](#backend)
     - [Planning](#planning)
@@ -65,7 +65,7 @@ These were then used to help work out the required API endpoints to support the 
 
 Data model schema was planned with the API endpoints, using an entity relationship diagram to show how the models were related.
 
-The custom models TC Carpentry are:
+The custom models Tom Costin Carpentry are:
 
 ***Images***
 
@@ -75,7 +75,7 @@ An entity relationship diagram was created using drawSQL to show the schemas for
 
 ![ERD Screenshot](docs/readme_screenshots/image-model.png)
 
-[back to top](#tc-carpentry)
+[back to top](#tom-costin-carpentry)
 
 ## API Endpoints
 
@@ -86,7 +86,7 @@ An entity relationship diagram was created using drawSQL to show the schemas for
 | `Email Endpoints` |
 | /api/send-email/ | Ability for user to post email | POST |
 
-[back to top](#tc-carpentry)
+[back to top](#tom-costin-carpentry)
 
 ## Technologies Used
 
@@ -121,7 +121,7 @@ An entity relationship diagram was created using drawSQL to show the schemas for
 - gunicorn - Used to help run application.
 - django filter - Used to help filter requests from frontend for images.
 
-[back to top](#tc-carpentry)
+[back to top](#tom-costin-carpentry)
 
 ## Testing Backend
 
@@ -170,7 +170,7 @@ Forking the GitHub repository allows you to make a copy of the original reposito
 - Near the top of the page, under the "settings" button going across the page, you should see a button saying "Fork".
 - Click the "Fork" button and you should now have a copy of the original repository in your GitHub account.
 
-[back to top](#tc-carpentry)
+[back to top](#tom-costin-carpentry)
 
 ***Deployment to Heroku***
 
@@ -198,7 +198,7 @@ For deployment to Heroku the following steps were made:
   - I then scrolled down and clicked on the button "Deploy Branch" which is now building the app.
   - Once the app is successfully deployed, a message appeared saying "your app was successfully deployed." Then click on the "view" button which will take me to the deployed link.
 
-  [back to top](#tc-carpentry)
+  [back to top](#tom-costin-carpentry)
 
   ## Frontend
 
@@ -206,7 +206,7 @@ For deployment to Heroku the following steps were made:
 
   #### The Stratgey Plane
 
-  TC Carpentry is intended for people who would like any aspect of carpentry work done. Here they can see a very professional and friendly company, and what they are about. They are able to see all aspects of work they cover, images of their previous work and ways of which to contact them.
+  Tom Costin Carpentry is intended for people who would like any aspect of carpentry work done. Here they can see a very professional and friendly company, and what they are about. They are able to see all aspects of work they cover, images of their previous work and ways of which to contact them.
 
   ##### The Ideal User
 
@@ -216,11 +216,11 @@ For deployment to Heroku the following steps were made:
 
 ##### Site Goals
 
-- To provide the user with the ability to find out more about TC Carpentry.
-- To provide the user with images and information about what work TC Carpentry does.
-- To provide users with ways in which to contact TC Carpentry.
+- To provide the user with the ability to find out more about Tom Costin Carpentry.
+- To provide the user with images and information about what work Tom Costin Carpentry does.
+- To provide users with ways in which to contact Tom Costin Carpentry.
 
-[back to top](#tc-carpentry)
+[back to top](#tom-costin-carpentry)
 
 ### Agile Planning
 
@@ -238,7 +238,7 @@ Milestones:
 
 ![Milestones](docs/readme_screenshots/milestones.png)
 
-[back to top](#tc-carpentry)
+[back to top](#tom-costin-carpentry)
 
 ##### User Stories
 
@@ -258,7 +258,7 @@ Themes were then refined into the following epics:
   
   - Easily navigate across site.
 
-  - Able to contact TC Carpentry.
+  - Able to contact Tom Costin Carpentry.
 
 - Admin management:
 
@@ -274,7 +274,7 @@ The following user stories were completed throughout the development:
 
 Homepage:
 
-  - As a User I can view homepage so that I can see all about TC Carpentry and images.
+  - As a User I can view homepage so that I can see all about Tom Costin Carpentry and images.
 
 Navabr Navigation:
 
@@ -282,11 +282,11 @@ Navabr Navigation:
 
 Footer:
 
-  - As a User I can see the footer and able to click on the links so that I can see information about TC Carpentry and follow them on other platforms.
+  - As a User I can see the footer and able to click on the links so that I can see information about Tom Costin Carpentry and follow them on other platforms.
 
 Services Page:
 
-  - As a User I can access the services page so that I can read and see about all the services TC Carpentry offers.
+  - As a User I can access the services page so that I can read and see about all the services Tom Costin Carpentry offers.
 
 Portfolio Page:
 
@@ -310,17 +310,17 @@ Admin Sign In:
 
 About Page:
 
-  - As a User I can access the about page so that I can read all about TC Carpentry, their experience and what they do.
+  - As a User I can access the about page so that I can read all about Tom Costin Carpentry, their experience and what they do.
 
 Contact Page:
 
-  - As a User I can access the contact page so that I am able to get in contact with TC Carpentry.
+  - As a User I can access the contact page so that I am able to get in contact with Tom Costin Carpentry.
 
 Contact Form:
 
-  - As a User I can Fill out and send the contact form so that I can directly and easily contact TC Carpentry with my enquiries.
+  - As a User I can Fill out and send the contact form so that I can directly and easily contact Tom Costin Carpentry with my enquiries.
 
-[back to top](#tc-carpentry)
+[back to top](#tom-costin-carpentry)
 
 #### The Skeleton Plane
 
@@ -350,7 +350,7 @@ Wireframes were used to create a prototype of the project which may change durin
 
 ![Desktop Contact Us Page Wireframe](/docs/readme_screenshots/desktop-contactuspage-wireframe.png)
 
-[back to top](#tc-carpentry)
+[back to top](#tom-costin-carpentry)
 
 ##### Database Schema
 
@@ -368,9 +368,9 @@ Admin is also protected my username and password from Django's built in admin us
 
 - Hamburger menu for navbar on mobile devices.
 
-- Homepage welcoming user to the site and links to navigate through the site and ability to conatct TC Carpentry.
+- Homepage welcoming user to the site and links to navigate through the site and ability to conatct Tom Costin Carpentry.
 
-[back to top](#tc-carpentry)
+[back to top](#tom-costin-carpentry)
 
 #### The Structure Plane
 
@@ -538,7 +538,7 @@ Font awesome was used to for the sites icons.
 
 Google fonts was used for the font style.
 
-[Back to top](#tc-carpentry)
+[Back to top](#tom-costin-carpentry)
 
 ### Use of Components
 
@@ -592,7 +592,7 @@ Used to create numerous nav links for the navbar, which diferent information was
 
 Used to be displayed when ever trying to access a page that doesn't exist.
 
-[Back to top](#tc-carpentry)
+[Back to top](#tom-costin-carpentry)
 
 ### Custom Hooks
 
@@ -608,7 +608,7 @@ This custom hook is used to fetch the csrf tokens from the backend.
 
 This custom hook is used to fetch the images from the backend and called depending on what page the user is on. What page the user is on is passed as a prop so the hook knows what filter to use to fetch the correct images. Hook also lets know when its loading and if there are any errors.
 
-[Back to top](#tc-carpentry)
+[Back to top](#tom-costin-carpentry)
 
 ### Languages Used
 
@@ -620,7 +620,7 @@ This custom hook is used to fetch the images from the backend and called dependi
 
 - JavaScript
 
-[Back to top](#tc-carpentry)
+[Back to top](#tom-costin-carpentry)
 
 ### Frameworks, Libraries and Dependencies
 
@@ -656,13 +656,13 @@ Google fonts was used to provide the font for the site.
 
 Prettier is used as code formatting tool which helped me structure my code in the correct way.
 
-[Back to top](#tc-carpentry)
+[Back to top](#tom-costin-carpentry)
 
 ### Testing Frontend
 
 I have included details of my testing during and post development in a separate file called [TESTING_FRONTEND.md](TESTING_FRONTEND.md)
 
-[Back to top](#tc-carpentry)
+[Back to top](#tom-costin-carpentry)
 
 ### Credits
 
@@ -678,5 +678,5 @@ I have included details of my testing during and post development in a separate 
 
 - Font Awesome-  For Providing the icons used throughout this project.
 
-[Back to top](#tc-carpentry)
+[Back to top](#tom-costin-carpentry)
 

@@ -1,4 +1,4 @@
-# TC Carpentry React Testing
+# Tom Costin Carpentry React Testing
 
 ## Testing Overview
 
@@ -6,7 +6,7 @@ During the development of this project, numerous testing was carried out by myse
 
 ## Contents
 
-- [TC Carpentry React Testing](#tc-carpentry-react-testing)
+- [Tom Costin Carpentry React Testing](#tom-costin-carpentry-react-testing)
   - [Testing Overview](#testing-overview)
   - [Contents](#contents)
   - [Manual Testing](#manual-testing)
@@ -26,8 +26,8 @@ Full test table:
 | Feature | Expected Outcome | Testing Performed | Result | Pass / Fail |
 | --- | --- | --- | --- | --- |
 |`Homepage`|
-| When user first loads site. | When the page first loads, the with a clear homepage displaying all information about TC Carpentry, photos, navbar, contact form. | Loaded the homepage. | Homepage loads and I am presented with a clear homepage displaying all different information on TC Carpentry and contact form. | Pass |
-| Slideshow | When home page loads, the user is presented with a slideshow which automatcally displays different images of TC Carpentrys work. | Loaded the homepage. | Homepage loads and I am presented with a slideshow of different images of work done by TC Carpentry. | Pass |
+| When user first loads site. | When the page first loads, the with a clear homepage displaying all information about Tom Costin Carpentry, photos, navbar, contact form. | Loaded the homepage. | Homepage loads and I am presented with a clear homepage displaying all different information on Tom Costin Carpentry and contact form. | Pass |
+| Slideshow | When home page loads, the user is presented with a slideshow which automatcally displays different images of Tom Costin Carpentrys work. | Loaded the homepage. | Homepage loads and I am presented with a slideshow of different images of work done by Tom Costin Carpentry. | Pass |
 | Contact us buttons re-direct to correct page. | When a user clicks on the contact us button in the info section, the user should be re-directed to the contact us page. | Clicked on both contact us buttons numerous times. | Each time I was re-directed to the contact us page. | Pass |
 |`Navbar`|
 | Check user can navigate using navbar. | If the user is on any page on the site, the user is able to click on any link on the navbar and re-directed to the correct page. | Whilst on the site, I tried navigating from page to page clicking on all the different links. | Each time I clicked on a navbar link, I was re-directed to the correct page. | Pass |
@@ -40,25 +40,25 @@ Full test table:
 | Footer links work correctly. | When a user clicks on the footer links, the link is opened up in a new tab and to the correct destination. | Clicked on the different footer links numerous times. | Each time the link opened up in a new tab and was to the correct destination. | Pass |
 |`Contact form`|
 | Contact form is present on every page. | The contact form must be clearly displayed on every page and user is able to fill this out. | Visited every page on the site and attempted to fill out form. | Contact form was on every page and was able to fill in the fields. | Pass |
-| Send when filled out correctly. | If the user fills out the form correctly, they are able to send an email to TC Carpentry with the enquiry. Alert message will also appear informing the user that it has been sent. | Filled out the contact form correctly. | Each time I filled out the form correctly, I successfully sent and email to TC Carpentry and an alert message appeared saying I was successfull. | Pass |
+| Send when filled out correctly. | If the user fills out the form correctly, they are able to send an email to Tom Costin Carpentry with the enquiry. Alert message will also appear informing the user that it has been sent. | Filled out the contact form correctly. | Each time I filled out the form correctly, I successfully sent and email to Tom Costin Carpentry and an alert message appeared saying I was successfull. | Pass |
 | Form won't send if incorrect. | If the contact form is not filled out correctly, the form will not be sent and error messages under each field that is incorrect will be displayed. An alert message will also be displayed to inform the user they were unsuccessful and to check the contact form. | Filled out the form incorrectly numerous times with different errors. | Each time the input field that had an error, had an error message underneath explaining the error. An alert message was also on the screen informing me that the form was unsuccessful. | Pass |
 | Send button disabled and loading icon. | When the user had filled out the form correctly and pressed send, the send button will now be disabled to prevent multiple submits and the button will inform the form is sending and displays a loading icon. | Filled out the form correctly and pressed send. | Each time the send button was disabled, it informed me it was sending and the loading icon was present. | Pass |
 |`Services page`|
-| Service page loads and tabs on display. | When the user visits the service page, the service page loads displaying the services provided by TC Carpentry and there is a list of tabs to see the different options and information. | Visited the services page. | The services page displayed all the services by TC Carpentry and there was a list of tabs with different options and information. | Pass |
+| Service page loads and tabs on display. | When the user visits the service page, the service page loads displaying the services provided by Tom Costin Carpentry and there is a list of tabs to see the different options and information. | Visited the services page. | The services page displayed all the services by Tom Costin Carpentry and there was a list of tabs with different options and information. | Pass |
 | Tabs contain correct images and information. | When the user clicks on a certain tab, the information in the tab should be the correct information and images for the tab. | Clicked on all the different tabs. | In each tab, the correct images and information was on display for that tab. | Pass |
 | Active tab. | The active tab will be a different colour so the user can see which tab they are on. | Clicked on all the different tabs. | Each tab I clicked on, the acitve tab was a different colour. | Pass |
 | Hover over tab. | When user hovers over a tab, the tab will change colour to show user that they are hovering over that tab. | Hovered over all tabs. | Each tab when hovered over changed colour. | Pass |
 |`Portfolio page`|
-| Portfolio page loads and tabs on display. | When the user visits the portfolio page, the portfolio page loads displaying the images of work provided by TC Carpentry and there is a list of tabs to see the different options. | Visited the portfolio page. | The portfolio page displayed all the images of work by TC Carpentry and there was a list of tabs with different options. | Pass |
+| Portfolio page loads and tabs on display. | When the user visits the portfolio page, the portfolio page loads displaying the images of work provided by Tom Costin Carpentry and there is a list of tabs to see the different options. | Visited the portfolio page. | The portfolio page displayed all the images of work by Tom Costin Carpentry and there was a list of tabs with different options. | Pass |
 | Tabs contain correct images. | When the user clicks on a certain tab, the images in the tab should be the correct images for that tab. | Clicked on all the different tabs. | In each tab, the correct images was on display for that tab. | Pass |
 | Active tab. | The active tab will be a different colour so the user can see which tab they are on. | Clicked on all the different tabs. | Each tab I clicked on, the acitve tab was a different colour. | Pass |
 | Hover over tab. | When user hovers over a tab, the tab will change colour to show user that they are hovering over that tab. | Hovered over all tabs. | Each tab when hovered over changed colour. | Pass |
 |`About us page`|
-| About us page loads. | When the user visits the about us page, they can clearly see information about TC Carpentry. | Visited the about us page. | I could clearly see information explaining about TC Carpentry. | Pass |
+| About us page loads. | When the user visits the about us page, they can clearly see information about Tom Costin Carpentry. | Visited the about us page. | I could clearly see information explaining about Tom Costin Carpentry. | Pass |
 |`Contact us page`|
-| Contact us page loads. | When the user visits the contact us page, they can clearly see information about how to contact TC Carpentry. | Visited the about us page. | I could clearly see information explaining how to contact TC Carpentry. | Pass |
+| Contact us page loads. | When the user visits the contact us page, they can clearly see information about how to contact Tom Costin Carpentry. | Visited the about us page. | I could clearly see information explaining how to contact Tom Costin Carpentry. | Pass |
 
-[back to top](#tc-carpentry-react-testing)
+[back to top](#tom-costin-carpentry-react-testing)
 
 ## Validators
 
@@ -116,7 +116,7 @@ Contact us page:
 
 </details>
 
-[back to top](#tc-carpentry-react-testing)
+[back to top](#tom-costin-carpentry-react-testing)
 
 ### ESLint JavaScript
 
@@ -124,7 +124,7 @@ Most of the JavaScript code validation was done through the help of the prettier
 
 All JavaScript files were then validated using ESLint JavaScript validator, which reported back no issues. 
 
-[back to top](#tc-carpentry-react-testing)
+[back to top](#tom-costin-carpentry-react-testing)
 
 ### W3C CSS Validator
 
@@ -168,4 +168,4 @@ Devices tested and devices using google tools:
 | Nest Hub | As expected | Pass |
 | Nest Hub Max | As expected | Pass |
 
-[back to top](#tc-carpentry-react-testing)
+[back to top](#tom-costin-carpentry-react-testing)

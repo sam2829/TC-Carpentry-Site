@@ -7,7 +7,7 @@ from django.http import JsonResponse
 @api_view()
 def root_route(request):
     return Response({
-        "message": "Welcome to TC Carpentry API!"
+        "message": "Welcome to Tom Costin Carpentry API!"
     })
 
 

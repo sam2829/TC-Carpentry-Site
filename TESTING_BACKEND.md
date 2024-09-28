@@ -1,4 +1,4 @@
-# TC Carpentry API Testing
+# Tom Costin Carpentry API Testing
 
 ## Testing Overview
 
@@ -6,7 +6,7 @@ During and post development of this project numerous testing was carried out by 
 
 ## Contents
 
-- [TC Carpentry API Testing](#tc-carpentry-api-testing)
+- [Tom Costin Carpentry API Testing](#tom-costin-carpentry-api-testing)
   - [Testing Overview](#testing-overview)
   - [Contents](#contents)
   - [Manual Testing](#manual-testing)
@@ -39,7 +39,7 @@ Full test table:
 | Filter by portfolio page | When logged in as admin, I am able to filter images by if they are portfolio page. | Logged in as admin, then tried filtering images by portfolio page. | Succesffully able to filter images by portfolio page. | Pass |
 | Description length | When uploading a photo I am not allowed to exceed 50 characters. If this happens, image is not uploaded and error message appears. | Logged in as admin, tried uploading image with description field exceeding 50 characters. | Unable to upload image, error message appeared. | Pass |
 
-[back to top](#tc-carpentry-api-testing)
+[back to top](#tom-costin-carpentry-api-testing)
 
 In this project I also done automated python testing. In this I tried to test as much on the apps as I could. These tests were created to test the functionality of the apps. These can be found in the test.py files in the respective apps.
 
@@ -83,8 +83,8 @@ The CI Python Linter was used to validate the python code used throughout the pr
 | urls.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass | 
 | views.py | CI Python Linter to show no errors. | CI Python Linter returned no errors. | Pass |
 
-[back to top](#tc-carpentry-api-testing)
+[back to top](#tom-costin-carpentry-api-testing)
 
 ## Bugs and Fixes
 
-[back to top](#tc-carpentry-api-testing)
+[back to top](#tom-costin-carpentry-api-testing)
