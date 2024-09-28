@@ -50,6 +50,9 @@ DEBUG = 'DEBUG' in os.environ
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOST', '').split(',') + ['localhost', '127.0.0.1']
 
+# Redirect all non-HTTPS requests to HTTPS
+SECURE_SSL_REDIRECT = True
+
 
 # Application definition
 
