@@ -90,20 +90,20 @@ CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     os.environ.get('CLIENT_ORIGIN'),
     "https://tc-carpentry-d2974ed67d90.herokuapp.com",
-    "https://www.tomcostincarpentry.co.uk",
     "http://www.tomcostincarpentry.co.uk",
-    "https://tomcostincarpentry.co.uk",
+    "https://www.tomcostincarpentry.co.uk",
     "http://tomcostincarpentry.co.uk",
+    "https://tomcostincarpentry.co.uk",
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     os.environ.get('CLIENT_ORIGIN'),
     "https://tc-carpentry-d2974ed67d90.herokuapp.com",
-    "https://www.tomcostincarpentry.co.uk",
     "http://www.tomcostincarpentry.co.uk",
-    "https://tomcostincarpentry.co.uk",
+    "https://www.tomcostincarpentry.co.uk",
     "http://tomcostincarpentry.co.uk",
+    "https://tomcostincarpentry.co.uk",
 ]
 # added
 CORS_ALLOW_CREDENTIALS = True
