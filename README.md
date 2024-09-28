@@ -328,7 +328,27 @@ Contact Form:
 
 Wireframes were used to create a prototype of the project which may change during its development.
 
-wireframes screenshots to go here jsdb
+***Homepage***
+
+![Desktop Homepage Wireframe 1](/TC_Carpentry/docs/readme_screenshots/desktop-homepage-wireframe.png)
+
+![Desktop Homepage Wireframe 2](/TC_Carpentry/docs/readme_screenshots/desktop-homepage-wireframe-2.png)
+
+***Service Page***
+
+![Desktop Services Page Wireframe ](/TC_Carpentry/docs/readme_screenshots/desktop-servicespage-wireframe.png)
+
+***Portfolio Page***
+
+![Desktop Portfolio Page Wireframe](/TC_Carpentry/docs/readme_screenshots/desktop-portfoliopage-wireframe.png)
+
+***About Us Page***
+
+![Desktop About Us Page Wireframe](/TC_Carpentry/docs/readme_screenshots/desktop-aboutuspage-wireframe.png)
+
+***Contact Us Page***
+
+![Desktop Contact Us Page Wireframe](/TC_Carpentry/docs/readme_screenshots/desktop-contactuspage-wireframe.png)
 
 [back to top](#tc-carpentry)
 
