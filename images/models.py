@@ -17,23 +17,23 @@ def validate_image(file):
         )
 
         # Optionally, check the image dimensions
-        try:
-            # Check the file size (10MB maximum)
-            filesize = file.size
-            max_filesize = 10 * 1024 * 1024  # 10MB in bytes
-            if filesize > max_filesize:
-                raise ValidationError(
-                    "The maximum file size that can be uploaded is 10MB."
-                )
-            width, height = get_image_dimensions(file)
-            max_dimension = 4096
-            if width > max_dimension or height > max_dimension:
-                raise ValidationError(
-                    f"Image dimensions are too large. Maximum width and height"
-                    f" allowed is {max_dimension}px."
-                )
-        except AttributeError:
-            raise ValidationError("Invalid image file.")
+    try:
+        # Check the file size (10MB maximum)
+        filesize = file.size
+        max_filesize = 10 * 1024 * 1024  # 10MB in bytes
+        if filesize > max_filesize:
+            raise ValidationError(
+                "The maximum file size that can be uploaded is 10MB."
+            )
+        width, height = get_image_dimensions(file)
+        max_dimension = 4096
+        if width > max_dimension or height > max_dimension:
+            raise ValidationError(
+                f"Image dimensions are too large. Maximum width and height"
+                f" allowed is {max_dimension}px."
+            )
+    except AttributeError:
+        raise ValidationError("Invalid image file.")
 
 
 class Images(models.Model):
