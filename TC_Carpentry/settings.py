@@ -51,7 +51,7 @@ DEBUG = 'DEBUG' in os.environ
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOST', '').split(',') + ['localhost', '127.0.0.1']
 
 # Redirect all non-HTTPS requests to HTTPS
-SECURE_SSL_REDIRECT = False
+# SECURE_SSL_REDIRECT = True
 
 
 # Application definition
@@ -91,9 +91,9 @@ CSRF_TRUSTED_ORIGINS = [
     os.environ.get('CLIENT_ORIGIN'),
     "https://tc-carpentry-d2974ed67d90.herokuapp.com",
     "http://www.tomcostincarpentry.co.uk",
-    # "https://www.tomcostincarpentry.co.uk",
+    "https://www.tomcostincarpentry.co.uk",
     "http://tomcostincarpentry.co.uk",
-    # "https://tomcostincarpentry.co.uk",
+    "https://tomcostincarpentry.co.uk",
 ]
 
 CORS_ALLOWED_ORIGINS = [
@@ -101,9 +101,9 @@ CORS_ALLOWED_ORIGINS = [
     os.environ.get('CLIENT_ORIGIN'),
     "https://tc-carpentry-d2974ed67d90.herokuapp.com",
     "http://www.tomcostincarpentry.co.uk",
-    # "https://www.tomcostincarpentry.co.uk",
+    "https://www.tomcostincarpentry.co.uk",
     "http://tomcostincarpentry.co.uk",
-    # "https://tomcostincarpentry.co.uk",
+    "https://tomcostincarpentry.co.uk",
 ]
 # added
 CORS_ALLOW_CREDENTIALS = True
