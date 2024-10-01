@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dbb3c684.css",
-    "main.js": "/static/js/main.dfbe0019.js",
+    "main.js": "/static/js/main.56f4124b.js",
     "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
     "static/media/new-door-image-3.jpg": "/static/media/new-door-image-3.0725facec2b41218bbb3.jpg",
     "static/media/holiday-let-image.jpg": "/static/media/holiday-let-image.d0fed280f4ed69bea76e.jpg",
@@ -24,11 +24,11 @@
     "static/media/new-floor-and-skirting-image-2.jpg": "/static/media/new-floor-and-skirting-image-2.bda887931bc66d140e98.jpg",
     "index.html": "/index.html",
     "main.dbb3c684.css.map": "/static/css/main.dbb3c684.css.map",
-    "main.dfbe0019.js.map": "/static/js/main.dfbe0019.js.map",
+    "main.56f4124b.js.map": "/static/js/main.56f4124b.js.map",
     "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dbb3c684.css",
-    "static/js/main.dfbe0019.js"
+    "static/js/main.56f4124b.js"
   ]
 }
