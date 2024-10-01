@@ -51,7 +51,7 @@ DEBUG = 'DEBUG' in os.environ
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOST', '').split(',') + ['localhost', '127.0.0.1']
 
 # Redirect all non-HTTPS requests to HTTPS
-# SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = True
 
 
 # Application definition
@@ -76,7 +76,6 @@ SITE_ID = 1
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    # 'TC_Carpentry.middleware.CrossOriginPolicyMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
